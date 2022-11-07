@@ -6,3 +6,104 @@
 [2022-11-04T22:57:51.700+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
 [2022-11-04T22:57:51.708+0000] {manager.py:727} INFO - There are 0 files in /opt/airflow/dags
 [2022-11-04T22:59:50.981+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2022-11-06T01:22:26.947+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2022-11-06T01:22:26.961+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2022-11-06T01:22:26.962+0000] {manager.py:486} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2022-11-06T01:22:26.963+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-11-06T01:22:26.975+0000] {manager.py:727} INFO - There are 0 files in /opt/airflow/dags
+[2022-11-06T01:26:26.927+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2022-11-06T19:13:49.292+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2022-11-06T19:13:49.306+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2022-11-06T19:13:49.307+0000] {manager.py:486} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2022-11-06T19:13:49.308+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-11-06T19:13:49.321+0000] {manager.py:727} INFO - There are 0 files in /opt/airflow/dags
+[2022-11-06T19:18:49.977+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-11-06T19:18:49.983+0000] {manager.py:727} INFO - There are 0 files in /opt/airflow/dags
+[2022-11-06T19:33:19.783+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-11-06T19:33:19.796+0000] {manager.py:727} INFO - There are 0 files in /opt/airflow/dags
+[2022-11-06T19:33:26.351+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2022-11-07T14:35:57.188+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2022-11-07T14:35:57.202+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2022-11-07T14:35:57.203+0000] {manager.py:486} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2022-11-07T14:35:57.204+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-11-07T14:35:57.227+0000] {manager.py:727} INFO - There are 0 files in /opt/airflow/dags
+[2022-11-07T14:53:18.599+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-11-07T14:53:18.614+0000] {manager.py:727} INFO - There are 0 files in /opt/airflow/dags
+[2022-11-07T14:53:24.323+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2022-11-07T15:47:28.244+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2022-11-07T15:47:28.255+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2022-11-07T15:47:28.257+0000] {manager.py:486} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2022-11-07T15:47:28.258+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-11-07T15:47:28.311+0000] {manager.py:727} INFO - There are 1 files in /opt/airflow/dags
+[2022-11-07T15:47:28.415+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/forex_data_pipeline.py     51  0.05s             0           0
+================================================================================
+[2022-11-07T15:47:58.712+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/forex_data_pipeline.py     70  0.00s             0           1  0.31s           2022-11-07T15:47:28
+================================================================================
+[2022-11-07T15:48:29.228+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/forex_data_pipeline.py     97  0.00s             0           1  0.23s           2022-11-07T15:47:58
+================================================================================
+[2022-11-07T15:48:59.569+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/forex_data_pipeline.py    125  0.00s             0           1  0.14s           2022-11-07T15:48:29
+================================================================================
+[2022-11-07T15:49:30.078+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/forex_data_pipeline.py                           1           0  0.46s           2022-11-07T15:49:06
+================================================================================
+[2022-11-07T15:50:00.729+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/forex_data_pipeline.py                           1           0  0.28s           2022-11-07T15:49:36
+================================================================================
+[2022-11-07T15:50:31.265+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/forex_data_pipeline.py                           1           0  0.26s           2022-11-07T15:50:07
+================================================================================
+[2022-11-07T15:51:01.564+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/forex_data_pipeline.py                           1           0  0.22s           2022-11-07T15:50:37
+================================================================================
+[2022-11-07T15:51:32.096+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/forex_data_pipeline.py                           1           0  0.25s           2022-11-07T15:51:07
+================================================================================
