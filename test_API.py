@@ -5,5 +5,5 @@ url = 'https://www.alphavantage.co/query?function=CURRENCY_EXCHANGE_RATE&from_cu
 r = requests.get(url)
 #data = json.loads(r.text)
 
-with open("G:/My Drive/Big Data/Airflow-pipelines/files/rates.json", "w") as outfil:
+with open("files/rates.json", "w") as outfil:
     outfil.write(r.text)

@@ -1,0 +1,28 @@
+[2022-11-08T22:31:36.906+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: forex_data_pipeline.is_forex_file_available manual__2022-11-08T22:31:32.640798+00:00 [queued]>
+[2022-11-08T22:31:36.920+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: forex_data_pipeline.is_forex_file_available manual__2022-11-08T22:31:32.640798+00:00 [queued]>
+[2022-11-08T22:31:36.921+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-08T22:31:36.922+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 3
+[2022-11-08T22:31:36.923+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-08T22:31:36.937+0000] {taskinstance.py:1383} INFO - Executing <Task(FileSensor): is_forex_file_available> on 2022-11-08 22:31:32.640798+00:00
+[2022-11-08T22:31:36.941+0000] {standard_task_runner.py:54} INFO - Started process 4790 to run task
+[2022-11-08T22:31:36.945+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'forex_data_pipeline', 'is_forex_file_available', 'manual__2022-11-08T22:31:32.640798+00:00', '--job-id', '20', '--raw', '--subdir', 'DAGS_FOLDER/forex_data_pipeline.py', '--cfg-path', '/tmp/tmpiugo681p']
+[2022-11-08T22:31:36.946+0000] {standard_task_runner.py:83} INFO - Job 20: Subtask is_forex_file_available
+[2022-11-08T22:31:36.948+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/***/dags/forex_data_pipeline.py
+[2022-11-08T22:31:37.104+0000] {task_command.py:384} INFO - Running <TaskInstance: forex_data_pipeline.is_forex_file_available manual__2022-11-08T22:31:32.640798+00:00 [running]> on host f6a61415b844
+[2022-11-08T22:31:37.160+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=juanfelipehdezm@gmail.com
+AIRFLOW_CTX_DAG_OWNER=felipehdez
+AIRFLOW_CTX_DAG_ID=forex_data_pipeline
+AIRFLOW_CTX_TASK_ID=is_forex_file_available
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-08T22:31:32.640798+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-11-08T22:31:32.640798+00:00
+[2022-11-08T22:31:37.168+0000] {base.py:71} INFO - Using connection ID 'forex_path' for task execution.
+[2022-11-08T22:31:37.169+0000] {filesystem.py:58} INFO - Poking for file /tmp/rates.json
+[2022-11-08T22:31:37.170+0000] {filesystem.py:63} INFO - Found File /tmp/rates.json last modified: 20221108223136
+[2022-11-08T22:31:37.170+0000] {base.py:213} INFO - Success criteria met. Exiting.
+[2022-11-08T22:31:37.178+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=forex_data_pipeline, task_id=is_forex_file_available, execution_date=20221108T223132, start_date=20221108T223136, end_date=20221108T223137
+[2022-11-08T22:31:37.238+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2022-11-08T22:31:37.253+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,28 @@
+[2022-11-08T22:31:34.261+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: forex_data_pipeline.is_forex_rates_available manual__2022-11-08T22:31:32.640798+00:00 [queued]>
+[2022-11-08T22:31:34.273+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: forex_data_pipeline.is_forex_rates_available manual__2022-11-08T22:31:32.640798+00:00 [queued]>
+[2022-11-08T22:31:34.274+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-08T22:31:34.275+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 3
+[2022-11-08T22:31:34.275+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-08T22:31:34.286+0000] {taskinstance.py:1383} INFO - Executing <Task(HttpSensor): is_forex_rates_available> on 2022-11-08 22:31:32.640798+00:00
+[2022-11-08T22:31:34.291+0000] {standard_task_runner.py:54} INFO - Started process 4777 to run task
+[2022-11-08T22:31:34.293+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'forex_data_pipeline', 'is_forex_rates_available', 'manual__2022-11-08T22:31:32.640798+00:00', '--job-id', '18', '--raw', '--subdir', 'DAGS_FOLDER/forex_data_pipeline.py', '--cfg-path', '/tmp/tmpf364k0yf']
+[2022-11-08T22:31:34.294+0000] {standard_task_runner.py:83} INFO - Job 18: Subtask is_forex_rates_available
+[2022-11-08T22:31:34.295+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/***/dags/forex_data_pipeline.py
+[2022-11-08T22:31:34.384+0000] {task_command.py:384} INFO - Running <TaskInstance: forex_data_pipeline.is_forex_rates_available manual__2022-11-08T22:31:32.640798+00:00 [running]> on host f6a61415b844
+[2022-11-08T22:31:34.438+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=juanfelipehdezm@gmail.com
+AIRFLOW_CTX_DAG_OWNER=felipehdez
+AIRFLOW_CTX_DAG_ID=forex_data_pipeline
+AIRFLOW_CTX_TASK_ID=is_forex_rates_available
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-08T22:31:32.640798+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-11-08T22:31:32.640798+00:00
+[2022-11-08T22:31:34.439+0000] {http.py:120} INFO - Poking: /query?function=CURRENCY_EXCHANGE_RATE&from_currency=USD&to_currency=COP&apikey=EHCCX9LJ1T4XQV4E
+[2022-11-08T22:31:34.447+0000] {base.py:71} INFO - Using connection ID 'forex_api' for task execution.
+[2022-11-08T22:31:34.449+0000] {http.py:148} INFO - Sending 'GET' to url: https://www.alphavantage.co/query?function=CURRENCY_EXCHANGE_RATE&from_currency=USD&to_currency=COP&apikey=EHCCX9LJ1T4XQV4E
+[2022-11-08T22:31:35.068+0000] {base.py:213} INFO - Success criteria met. Exiting.
+[2022-11-08T22:31:35.077+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=forex_data_pipeline, task_id=is_forex_rates_available, execution_date=20221108T223132, start_date=20221108T223134, end_date=20221108T223135
+[2022-11-08T22:31:35.109+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2022-11-08T22:31:35.134+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
