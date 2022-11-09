@@ -4,6 +4,7 @@ from airflow.providers.http.sensors.http import HttpSensor
 from airflow.operators.python import PythonOperator
 import requests
 from airflow.sensors.filesystem import FileSensor
+from airflow.providers.postgres.operators.postgres import PostgresOperator
 
 # default arguments for the dag, this are applied to the TASK
 DEFAULT_ARG = {
@@ -55,6 +56,25 @@ with DAG("forex_data_pipeline", start_date=dt.datetime(2022, 11, 7),
         filepath="rates.json",
         poke_interval=5,
         timeout=20
+    )
+
+    create_forexRates_database = PostgresOperator(
+        task_id="create_forexRates_database",
+        postgres_conn_id="forex_db",
+        sql="""
+                CREATE TABLE IF NOT EXISTS forex_ratings (
+                    Id INTEGER NOT NULL PRIMARY KEY,
+                    From_Currency_Code TEXT NOT NULL,
+                    From_Currency_Name TEXT NOT NULL,
+                    To_Currency_Code TEXT NOT NULL,
+                    To_Currency_Name TEXT NOT NULL,
+                    Exchange_Rate NUMERIC(6,2),
+                    Last_Refreshed TIMESTAMP NOT NULL,
+                    Time_Zone TEXT NOT NULL
+                );
+            """,
+        queue="high_cpu"
+
     )
 
     # DEPENDENCIES
