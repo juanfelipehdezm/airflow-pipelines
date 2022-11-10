@@ -19,7 +19,9 @@ DEFAULT_ARG = {
 
 
 def download_rates():
-    """function to downloading the json file"""
+    """
+    It downloads the json file from the url and writes it to a file
+    """
 
     url = 'https://www.alphavantage.co/query?function=CURRENCY_EXCHANGE_RATE&from_currency=USD&to_currency=COP&apikey=EHCCX9LJ1T4XQV4E'
     r = requests.get(url)
@@ -58,6 +60,7 @@ with DAG("forex_data_pipeline", start_date=dt.datetime(2022, 11, 7),
         timeout=20
     )
 
+# Creating a table in the database.
     create_forexRates_database = PostgresOperator(
         task_id="create_forexRates_database",
         postgres_conn_id="forex_db",
