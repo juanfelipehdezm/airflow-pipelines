@@ -4,6 +4,7 @@ from airflow.providers.http.sensors.http import HttpSensor
 from airflow.operators.python import PythonOperator
 import requests
 from airflow.sensors.filesystem import FileSensor
+import json
 from airflow.providers.postgres.operators.postgres import PostgresOperator
 
 # default arguments for the dag, this are applied to the TASK
@@ -25,9 +26,11 @@ def download_rates():
 
     url = 'https://www.alphavantage.co/query?function=CURRENCY_EXCHANGE_RATE&from_currency=USD&to_currency=COP&apikey=EHCCX9LJ1T4XQV4E'
     r = requests.get(url)
+    data = json.loads(r.text)["Realtime Currency Exchange Rate"]
     # as we are using docker we must provide the path like this
-    with open("/opt/airflow/dags/files/rates.json", "w") as outfil:
-        outfil.write(r.text)
+    with open("/opt/airflow/dags/files/rates.json", "w") as outfile:
+        j = json.dumps(data, indent=4)
+        outfile.write(j)
 
 
 # iniating the dag object
