@@ -6,6 +6,7 @@ import requests
 from airflow.sensors.filesystem import FileSensor
 import json
 from airflow.providers.postgres.operators.postgres import PostgresOperator
+import pandas as pd
 
 # default arguments for the dag, this are applied to the TASK
 DEFAULT_ARG = {
@@ -31,6 +32,18 @@ def download_rates():
     with open("/opt/airflow/dags/files/rates.json", "w") as outfile:
         j = json.dumps(data, indent=4)
         outfile.write(j)
+
+
+def processing_json_file():
+    """
+    It opens a json file, loads the data, converts the data into a dictionary, and then converts the
+    dictionary into a dataframe
+    """
+    with open("/opt/airflow/dags/files/rates.json", "r") as file:
+        data = json.load(file)
+        proper_data = {k: v.split(",") for k, v in data.items()}
+
+        df_rates = pd.DataFrame(proper_data)
 
 
 # iniating the dag object
@@ -83,5 +96,10 @@ with DAG("forex_data_pipeline", start_date=dt.datetime(2022, 11, 7),
 
     )
 
+    process_json_file = PythonOperator(
+        task_id="process_json_file",
+        python_callable=processing_json_file
+    )
+
     # DEPENDENCIES
-    is_forex_rates_available >> downloading_rates >> is_forex_rates_file_available
+    is_forex_rates_available >> downloading_rates >> is_forex_rates_file_available >> process_json_file

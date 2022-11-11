@@ -1,0 +1,27 @@
+[2022-11-11T19:25:24.549+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: forex_data_pipeline.create_forexRates_database scheduled__2022-11-10T00:00:00+00:00 [queued]>
+[2022-11-11T19:25:24.566+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: forex_data_pipeline.create_forexRates_database scheduled__2022-11-10T00:00:00+00:00 [queued]>
+[2022-11-11T19:25:24.568+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-11T19:25:24.571+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 3
+[2022-11-11T19:25:24.573+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-11T19:25:24.596+0000] {taskinstance.py:1383} INFO - Executing <Task(PostgresOperator): create_forexRates_database> on 2022-11-10 00:00:00+00:00
+[2022-11-11T19:25:24.602+0000] {standard_task_runner.py:54} INFO - Started process 68 to run task
+[2022-11-11T19:25:24.606+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'forex_data_pipeline', 'create_forexRates_database', 'scheduled__2022-11-10T00:00:00+00:00', '--job-id', '63', '--raw', '--subdir', 'DAGS_FOLDER/forex_data_pipeline.py', '--cfg-path', '/tmp/tmp_l4vd617']
+[2022-11-11T19:25:24.607+0000] {standard_task_runner.py:83} INFO - Job 63: Subtask create_forexRates_database
+[2022-11-11T19:25:24.609+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/***/dags/forex_data_pipeline.py
+[2022-11-11T19:25:24.669+0000] {dagbag.py:330} ERROR - Failed to import: /opt/***/dags/forex_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/forex_data_pipeline.py", line 45
+    with DAG("forex_data_pipeline", start_date=dt.datetime(2022, 11, 7),
+       ^
+IndentationError: expected an indented block
+[2022-11-11T19:25:24.671+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 63 for task create_forexRates_database (Dag 'forex_data_pipeline' could not be found; either it does not exist or it failed to parse.; 68)
+[2022-11-11T19:25:24.699+0000] {local_task_job.py:164} INFO - Task exited with return code 1
+[2022-11-11T19:25:24.744+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
