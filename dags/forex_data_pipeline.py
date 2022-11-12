@@ -37,14 +37,21 @@ def download_rates():
 
 def processing_json_file():
     """
-    It opens a json file, loads the data, converts the data into a dictionary, and then converts the
-    dictionary into a dataframe
+    It reads the json file and converts it into a dataframe.
     """
     with open("/opt/airflow/dags/files/rates.json", "r") as file:
         data = json.load(file)
         proper_data = {k: v.split(",") for k, v in data.items()}
 
         df_rates = pd.DataFrame(proper_data)
+        df_rates = df_rates.iloc[:, :7]
+        df_rates.rename(columns={"1. From_Currency Code": "From_Currency_Code",
+                                 "2. From_Currency Name": "From_Currency_Name",
+                                 "3. To_Currency Code": "To_Currency_Code",
+                                 "4. To_Currency Name": "To_Currency_Name",
+                                 "5. Exchange Rate": "Exchange_Rate",
+                                 "6. Last Refreshed": "Last_Refreshed",
+                                 "7. Time Zone": "Time_Zone"}, inplace=True)
 
 
 # iniating the dag object
