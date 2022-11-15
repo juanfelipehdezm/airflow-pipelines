@@ -8,6 +8,7 @@ from airflow.operators.python import PythonOperator
 from airflow.providers.http.sensors.http import HttpSensor
 from airflow.providers.postgres.operators.postgres import PostgresOperator
 from airflow.sensors.filesystem import FileSensor
+from airflow.providers.postgres.hooks.postgres import PostgresHook
 
 # default arguments for the dag, this are applied to the TASK
 DEFAULT_ARG = {
@@ -52,9 +53,18 @@ def processing_json_file():
                                  "5. Exchange Rate": "Exchange_Rate",
                                  "6. Last Refreshed": "Last_Refreshed",
                                  "7. Time Zone": "Time_Zone"}, inplace=True)
+        # sending the data to the CS
+        df_rates.to_csv("/opt/airflow/dags/files/rates.csv")
 
 
-# iniating the dag object
+def store_ratings():
+    hook = PostgresHook(postgres_conn_id="postgres")
+    hook.copy_expert(
+        sql="COPY forex_ratings FROM stdin WITH DELIMITER AS ','",
+        filename="/opt/airflow/dags/files/rates.csv"
+    )
+
+    # iniating the dag object
 with DAG("forex_data_pipeline", start_date=dt.datetime(2022, 11, 7),
          schedule_interval="@daily", default_args=DEFAULT_ARG, catchup=False) as dag:
 
@@ -90,7 +100,7 @@ with DAG("forex_data_pipeline", start_date=dt.datetime(2022, 11, 7),
         postgres_conn_id="forex_db",
         sql="""
             CREATE TABLE IF NOT EXISTS forex_ratings (
-                Id INTEGER NOT NULL PRIMARY KEY,
+                Id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
                 From_Currency_Code TEXT NOT NULL,
                 From_Currency_Name TEXT NOT NULL,
                 To_Currency_Code TEXT NOT NULL,
@@ -109,5 +119,10 @@ with DAG("forex_data_pipeline", start_date=dt.datetime(2022, 11, 7),
         python_callable=processing_json_file
     )
 
+    store_ratings = PythonOperator(
+        task_id="store_ratings",
+        python_callable=store_ratings
+    )
+
     # DEPENDENCIES
-    is_forex_rates_available >> downloading_rates >> is_forex_rates_file_available >> process_json_file
+    is_forex_rates_available >> downloading_rates >> is_forex_rates_file_available >> process_json_file >> store_ratings

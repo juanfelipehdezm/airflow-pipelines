@@ -1,0 +1,25 @@
+[2022-11-13T23:36:45.242+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: forex_data_pipeline.process_json_file scheduled__2022-11-11T00:00:00+00:00 [queued]>
+[2022-11-13T23:36:45.252+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: forex_data_pipeline.process_json_file scheduled__2022-11-11T00:00:00+00:00 [queued]>
+[2022-11-13T23:36:45.254+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-13T23:36:45.255+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 3
+[2022-11-13T23:36:45.256+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-13T23:36:45.268+0000] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): process_json_file> on 2022-11-11 00:00:00+00:00
+[2022-11-13T23:36:45.272+0000] {standard_task_runner.py:54} INFO - Started process 81 to run task
+[2022-11-13T23:36:45.274+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'forex_data_pipeline', 'process_json_file', 'scheduled__2022-11-11T00:00:00+00:00', '--job-id', '93', '--raw', '--subdir', 'DAGS_FOLDER/forex_data_pipeline.py', '--cfg-path', '/tmp/tmp3o8r6j62']
+[2022-11-13T23:36:45.275+0000] {standard_task_runner.py:83} INFO - Job 93: Subtask process_json_file
+[2022-11-13T23:36:45.277+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/***/dags/forex_data_pipeline.py
+[2022-11-13T23:36:45.592+0000] {task_command.py:384} INFO - Running <TaskInstance: forex_data_pipeline.process_json_file scheduled__2022-11-11T00:00:00+00:00 [running]> on host 9cbdb5013874
+[2022-11-13T23:36:45.646+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=juanfelipehdezm@gmail.com
+AIRFLOW_CTX_DAG_OWNER=felipehdez
+AIRFLOW_CTX_DAG_ID=forex_data_pipeline
+AIRFLOW_CTX_TASK_ID=process_json_file
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-11T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-11-11T00:00:00+00:00
+[2022-11-13T23:36:45.665+0000] {python.py:177} INFO - Done. Returned value was: None
+[2022-11-13T23:36:45.675+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=forex_data_pipeline, task_id=process_json_file, execution_date=20221111T000000, start_date=20221113T233645, end_date=20221113T233645
+[2022-11-13T23:36:45.728+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2022-11-13T23:36:45.749+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

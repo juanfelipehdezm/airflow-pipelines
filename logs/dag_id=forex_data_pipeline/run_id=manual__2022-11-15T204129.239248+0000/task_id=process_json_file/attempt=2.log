@@ -1,0 +1,124 @@
+[2022-11-15T20:47:16.151+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: forex_data_pipeline.process_json_file manual__2022-11-15T20:41:29.239248+00:00 [queued]>
+[2022-11-15T20:47:16.161+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: forex_data_pipeline.process_json_file manual__2022-11-15T20:41:29.239248+00:00 [queued]>
+[2022-11-15T20:47:16.162+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-15T20:47:16.163+0000] {taskinstance.py:1363} INFO - Starting attempt 2 of 4
+[2022-11-15T20:47:16.163+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-15T20:47:16.175+0000] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): process_json_file> on 2022-11-15 20:41:29.239248+00:00
+[2022-11-15T20:47:16.180+0000] {standard_task_runner.py:54} INFO - Started process 3337 to run task
+[2022-11-15T20:47:16.183+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'forex_data_pipeline', 'process_json_file', 'manual__2022-11-15T20:41:29.239248+00:00', '--job-id', '126', '--raw', '--subdir', 'DAGS_FOLDER/forex_data_pipeline.py', '--cfg-path', '/tmp/tmpkj4qpu_a']
+[2022-11-15T20:47:16.183+0000] {standard_task_runner.py:83} INFO - Job 126: Subtask process_json_file
+[2022-11-15T20:47:16.185+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/***/dags/forex_data_pipeline.py
+[2022-11-15T20:47:16.493+0000] {task_command.py:384} INFO - Running <TaskInstance: forex_data_pipeline.process_json_file manual__2022-11-15T20:41:29.239248+00:00 [running]> on host 9cbdb5013874
+[2022-11-15T20:47:16.546+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=juanfelipehdezm@gmail.com
+AIRFLOW_CTX_DAG_OWNER=felipehdez
+AIRFLOW_CTX_DAG_ID=forex_data_pipeline
+AIRFLOW_CTX_TASK_ID=process_json_file
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-15T20:41:29.239248+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-11-15T20:41:29.239248+00:00
+[2022-11-15T20:47:16.552+0000] {postgres.py:129} INFO - Running copy expert: COPY forex_ratings FROM STDIN, filename:   From_Currency_Code    From_Currency_Name  ...       Last_Refreshed Time_Zone
+0                USD  United States Dollar  ...  2022-11-15 20:47:12       UTC
+
+[1 rows x 7 columns]
+[2022-11-15T20:47:16.571+0000] {taskinstance.py:1851} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 193, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/forex_data_pipeline.py", line 58, in processing_json_file
+    postgres_sql_upload.bulk_load("forex_ratings", df_rates)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/postgres/hooks/postgres.py", line 151, in bulk_load
+    self.copy_expert(f"COPY {table} FROM STDIN", tmp_file)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/postgres/hooks/postgres.py", line 130, in copy_expert
+    if not os.path.isfile(filename):
+  File "/usr/local/lib/python3.7/genericpath.py", line 30, in isfile
+    st = os.stat(path)
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not DataFrame
+[2022-11-15T20:47:16.583+0000] {taskinstance.py:1406} INFO - Marking task as UP_FOR_RETRY. dag_id=forex_data_pipeline, task_id=process_json_file, execution_date=20221115T204129, start_date=20221115T204716, end_date=20221115T204716
+[2022-11-15T20:47:16.596+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/email.py:120: RemovedInAirflow3Warning: Fetching SMTP credentials from configuration variables will be deprecated in a future release. Please set credentials using a connection instead.
+  send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+
+[2022-11-15T20:47:16.597+0000] {configuration.py:569} WARNING - section/key [smtp/smtp_user] not found in config
+[2022-11-15T20:47:16.597+0000] {email.py:229} INFO - Email alerting: attempt 1
+[2022-11-15T20:47:16.603+0000] {configuration.py:569} WARNING - section/key [smtp/smtp_user] not found in config
+[2022-11-15T20:47:16.604+0000] {email.py:229} INFO - Email alerting: attempt 1
+[2022-11-15T20:47:16.604+0000] {taskinstance.py:1914} ERROR - Failed to send email to: juanfelipehdezm@gmail.com
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1457, in _run_raw_task
+    self._execute_task_with_callbacks(context, test_mode)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1603, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1664, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 193, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/forex_data_pipeline.py", line 58, in processing_json_file
+    postgres_sql_upload.bulk_load("forex_ratings", df_rates)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/postgres/hooks/postgres.py", line 151, in bulk_load
+    self.copy_expert(f"COPY {table} FROM STDIN", tmp_file)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/postgres/hooks/postgres.py", line 130, in copy_expert
+    if not os.path.isfile(filename):
+  File "/usr/local/lib/python3.7/genericpath.py", line 30, in isfile
+    st = os.stat(path)
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not DataFrame
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 2315, in email_alert
+    send_email(task.email, subject, html_content)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/email.py", line 72, in send_email
+    **kwargs,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/email.py", line 120, in send_email_smtp
+    send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/email.py", line 231, in send_mime_email
+    smtp_conn = _get_smtp_connection(smtp_host, smtp_port, smtp_timeout, smtp_ssl)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/email.py", line 265, in _get_smtp_connection
+    else smtplib.SMTP(host=host, port=port, timeout=timeout)
+  File "/usr/local/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/local/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/local/lib/python3.7/smtplib.py", line 307, in _get_socket
+    self.source_address)
+  File "/usr/local/lib/python3.7/socket.py", line 728, in create_connection
+    raise err
+  File "/usr/local/lib/python3.7/socket.py", line 716, in create_connection
+    sock.connect(sa)
+OSError: [Errno 99] Cannot assign requested address
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1912, in handle_failure
+    self.email_alert(error, task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 2317, in email_alert
+    send_email(task.email, subject, html_content_err)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/email.py", line 72, in send_email
+    **kwargs,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/email.py", line 120, in send_email_smtp
+    send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/email.py", line 231, in send_mime_email
+    smtp_conn = _get_smtp_connection(smtp_host, smtp_port, smtp_timeout, smtp_ssl)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/email.py", line 265, in _get_smtp_connection
+    else smtplib.SMTP(host=host, port=port, timeout=timeout)
+  File "/usr/local/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/local/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/local/lib/python3.7/smtplib.py", line 307, in _get_socket
+    self.source_address)
+  File "/usr/local/lib/python3.7/socket.py", line 728, in create_connection
+    raise err
+  File "/usr/local/lib/python3.7/socket.py", line 716, in create_connection
+    sock.connect(sa)
+OSError: [Errno 99] Cannot assign requested address
+[2022-11-15T20:47:16.616+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 126 for task process_json_file (stat: path should be string, bytes, os.PathLike or integer, not DataFrame; 3337)
+[2022-11-15T20:47:16.636+0000] {local_task_job.py:164} INFO - Task exited with return code 1
+[2022-11-15T20:47:16.652+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

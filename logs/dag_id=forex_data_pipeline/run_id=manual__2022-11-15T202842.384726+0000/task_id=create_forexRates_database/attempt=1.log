@@ -1,0 +1,39 @@
+[2022-11-15T20:28:44.699+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: forex_data_pipeline.create_forexRates_database manual__2022-11-15T20:28:42.384726+00:00 [queued]>
+[2022-11-15T20:28:44.722+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: forex_data_pipeline.create_forexRates_database manual__2022-11-15T20:28:42.384726+00:00 [queued]>
+[2022-11-15T20:28:44.736+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-15T20:28:44.740+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 3
+[2022-11-15T20:28:44.744+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-15T20:28:44.767+0000] {taskinstance.py:1383} INFO - Executing <Task(PostgresOperator): create_forexRates_database> on 2022-11-15 20:28:42.384726+00:00
+[2022-11-15T20:28:44.773+0000] {standard_task_runner.py:54} INFO - Started process 2437 to run task
+[2022-11-15T20:28:44.780+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'forex_data_pipeline', 'create_forexRates_database', 'manual__2022-11-15T20:28:42.384726+00:00', '--job-id', '111', '--raw', '--subdir', 'DAGS_FOLDER/forex_data_pipeline.py', '--cfg-path', '/tmp/tmp_ee_0mgc']
+[2022-11-15T20:28:44.781+0000] {standard_task_runner.py:83} INFO - Job 111: Subtask create_forexRates_database
+[2022-11-15T20:28:44.785+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/***/dags/forex_data_pipeline.py
+[2022-11-15T20:28:45.845+0000] {task_command.py:384} INFO - Running <TaskInstance: forex_data_pipeline.create_forexRates_database manual__2022-11-15T20:28:42.384726+00:00 [running]> on host 8abf8c3d62c4
+[2022-11-15T20:28:46.004+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=juanfelipehdezm@gmail.com
+AIRFLOW_CTX_DAG_OWNER=felipehdez
+AIRFLOW_CTX_DAG_ID=forex_data_pipeline
+AIRFLOW_CTX_TASK_ID=create_forexRates_database
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-15T20:28:42.384726+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-11-15T20:28:42.384726+00:00
+[2022-11-15T20:28:46.020+0000] {base.py:71} INFO - Using connection ID 'forex_db' for task execution.
+[2022-11-15T20:28:46.026+0000] {sql.py:315} INFO - Running statement: 
+            CREATE TABLE IF NOT EXISTS forex_ratings (
+                Id INTEGER NOT NULL PRIMARY KEY,
+                From_Currency_Code TEXT NOT NULL,
+                From_Currency_Name TEXT NOT NULL,
+                To_Currency_Code TEXT NOT NULL,
+                To_Currency_Name TEXT NOT NULL,
+                Exchange_Rate NUMERIC(6,2),
+                Last_Refreshed TIMESTAMP NOT NULL,
+                Time_Zone TEXT NOT NULL
+            );
+        , parameters: None
+[2022-11-15T20:28:46.029+0000] {postgres.py:96} INFO - NOTICE:  relation "forex_ratings" already exists, skipping
+
+[2022-11-15T20:28:46.040+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=forex_data_pipeline, task_id=create_forexRates_database, execution_date=20221115T202842, start_date=20221115T202844, end_date=20221115T202846
+[2022-11-15T20:28:46.123+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2022-11-15T20:28:46.156+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
