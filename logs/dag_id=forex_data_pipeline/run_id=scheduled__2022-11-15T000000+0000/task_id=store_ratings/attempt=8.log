@@ -1,0 +1,120 @@
+[2022-11-16T00:58:03.268+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: forex_data_pipeline.store_ratings scheduled__2022-11-15T00:00:00+00:00 [queued]>
+[2022-11-16T00:58:03.278+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: forex_data_pipeline.store_ratings scheduled__2022-11-15T00:00:00+00:00 [queued]>
+[2022-11-16T00:58:03.279+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-16T00:58:03.280+0000] {taskinstance.py:1363} INFO - Starting attempt 8 of 10
+[2022-11-16T00:58:03.280+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-16T00:58:03.293+0000] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): store_ratings> on 2022-11-15 00:00:00+00:00
+[2022-11-16T00:58:03.297+0000] {standard_task_runner.py:54} INFO - Started process 1371 to run task
+[2022-11-16T00:58:03.299+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'forex_data_pipeline', 'store_ratings', 'scheduled__2022-11-15T00:00:00+00:00', '--job-id', '171', '--raw', '--subdir', 'DAGS_FOLDER/forex_data_pipeline.py', '--cfg-path', '/tmp/tmpmg3ebyxn']
+[2022-11-16T00:58:03.300+0000] {standard_task_runner.py:83} INFO - Job 171: Subtask store_ratings
+[2022-11-16T00:58:03.301+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/***/dags/forex_data_pipeline.py
+[2022-11-16T00:58:03.621+0000] {task_command.py:384} INFO - Running <TaskInstance: forex_data_pipeline.store_ratings scheduled__2022-11-15T00:00:00+00:00 [running]> on host 9cbdb5013874
+[2022-11-16T00:58:03.680+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=juanfelipehdezm@gmail.com
+AIRFLOW_CTX_DAG_OWNER=felipehdez
+AIRFLOW_CTX_DAG_ID=forex_data_pipeline
+AIRFLOW_CTX_TASK_ID=store_ratings
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-15T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=8
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-11-15T00:00:00+00:00
+[2022-11-16T00:58:03.681+0000] {postgres.py:129} INFO - Running copy expert: COPY forex_ratings FROM stdin WITH DELIMITER AS ',', filename: /opt/***/dags/files/rates.csv
+[2022-11-16T00:58:03.697+0000] {base.py:71} INFO - Using connection ID 'forex_db' for task execution.
+[2022-11-16T00:58:03.702+0000] {taskinstance.py:1851} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 193, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/forex_data_pipeline.py", line 67, in store_ratings
+    filename="/opt/airflow/dags/files/rates.csv"
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/postgres/hooks/postgres.py", line 137, in copy_expert
+    cur.copy_expert(sql, file)
+psycopg2.errors.InvalidTextRepresentation: invalid input syntax for type integer: "Id"
+CONTEXT:  COPY forex_ratings, line 1, column id: "Id"
+
+[2022-11-16T00:58:03.716+0000] {taskinstance.py:1406} INFO - Marking task as UP_FOR_RETRY. dag_id=forex_data_pipeline, task_id=store_ratings, execution_date=20221115T000000, start_date=20221116T005803, end_date=20221116T005803
+[2022-11-16T00:58:03.728+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/email.py:120: RemovedInAirflow3Warning: Fetching SMTP credentials from configuration variables will be deprecated in a future release. Please set credentials using a connection instead.
+  send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+
+[2022-11-16T00:58:03.728+0000] {configuration.py:569} WARNING - section/key [smtp/smtp_user] not found in config
+[2022-11-16T00:58:03.729+0000] {email.py:229} INFO - Email alerting: attempt 1
+[2022-11-16T00:58:03.735+0000] {configuration.py:569} WARNING - section/key [smtp/smtp_user] not found in config
+[2022-11-16T00:58:03.735+0000] {email.py:229} INFO - Email alerting: attempt 1
+[2022-11-16T00:58:03.736+0000] {taskinstance.py:1914} ERROR - Failed to send email to: juanfelipehdezm@gmail.com
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1457, in _run_raw_task
+    self._execute_task_with_callbacks(context, test_mode)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1603, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1664, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 193, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/forex_data_pipeline.py", line 67, in store_ratings
+    filename="/opt/airflow/dags/files/rates.csv"
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/postgres/hooks/postgres.py", line 137, in copy_expert
+    cur.copy_expert(sql, file)
+psycopg2.errors.InvalidTextRepresentation: invalid input syntax for type integer: "Id"
+CONTEXT:  COPY forex_ratings, line 1, column id: "Id"
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 2315, in email_alert
+    send_email(task.email, subject, html_content)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/email.py", line 72, in send_email
+    **kwargs,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/email.py", line 120, in send_email_smtp
+    send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/email.py", line 231, in send_mime_email
+    smtp_conn = _get_smtp_connection(smtp_host, smtp_port, smtp_timeout, smtp_ssl)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/email.py", line 265, in _get_smtp_connection
+    else smtplib.SMTP(host=host, port=port, timeout=timeout)
+  File "/usr/local/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/local/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/local/lib/python3.7/smtplib.py", line 307, in _get_socket
+    self.source_address)
+  File "/usr/local/lib/python3.7/socket.py", line 728, in create_connection
+    raise err
+  File "/usr/local/lib/python3.7/socket.py", line 716, in create_connection
+    sock.connect(sa)
+OSError: [Errno 99] Cannot assign requested address
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1912, in handle_failure
+    self.email_alert(error, task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 2317, in email_alert
+    send_email(task.email, subject, html_content_err)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/email.py", line 72, in send_email
+    **kwargs,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/email.py", line 120, in send_email_smtp
+    send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/email.py", line 231, in send_mime_email
+    smtp_conn = _get_smtp_connection(smtp_host, smtp_port, smtp_timeout, smtp_ssl)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/email.py", line 265, in _get_smtp_connection
+    else smtplib.SMTP(host=host, port=port, timeout=timeout)
+  File "/usr/local/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/local/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/local/lib/python3.7/smtplib.py", line 307, in _get_socket
+    self.source_address)
+  File "/usr/local/lib/python3.7/socket.py", line 728, in create_connection
+    raise err
+  File "/usr/local/lib/python3.7/socket.py", line 716, in create_connection
+    sock.connect(sa)
+OSError: [Errno 99] Cannot assign requested address
+[2022-11-16T00:58:03.751+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 171 for task store_ratings (invalid input syntax for type integer: "Id"
+CONTEXT:  COPY forex_ratings, line 1, column id: "Id"
+; 1371)
+[2022-11-16T00:58:03.794+0000] {local_task_job.py:164} INFO - Task exited with return code 1
+[2022-11-16T00:58:03.811+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

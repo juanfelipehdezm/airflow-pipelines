@@ -1,0 +1,130 @@
+[2022-11-16T00:37:58.123+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: forex_data_pipeline.create_forexRates_database scheduled__2022-11-15T00:00:00+00:00 [queued]>
+[2022-11-16T00:37:58.135+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: forex_data_pipeline.create_forexRates_database scheduled__2022-11-15T00:00:00+00:00 [queued]>
+[2022-11-16T00:37:58.138+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-16T00:37:58.138+0000] {taskinstance.py:1363} INFO - Starting attempt 3 of 4
+[2022-11-16T00:37:58.144+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-16T00:37:58.157+0000] {taskinstance.py:1383} INFO - Executing <Task(PostgresOperator): create_forexRates_database> on 2022-11-15 00:00:00+00:00
+[2022-11-16T00:37:58.161+0000] {standard_task_runner.py:54} INFO - Started process 363 to run task
+[2022-11-16T00:37:58.163+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'forex_data_pipeline', 'create_forexRates_database', 'scheduled__2022-11-15T00:00:00+00:00', '--job-id', '163', '--raw', '--subdir', 'DAGS_FOLDER/forex_data_pipeline.py', '--cfg-path', '/tmp/tmpgljujfyf']
+[2022-11-16T00:37:58.163+0000] {standard_task_runner.py:83} INFO - Job 163: Subtask create_forexRates_database
+[2022-11-16T00:37:58.164+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/***/dags/forex_data_pipeline.py
+[2022-11-16T00:37:58.468+0000] {task_command.py:384} INFO - Running <TaskInstance: forex_data_pipeline.create_forexRates_database scheduled__2022-11-15T00:00:00+00:00 [running]> on host 8abf8c3d62c4
+[2022-11-16T00:37:58.522+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=juanfelipehdezm@gmail.com
+AIRFLOW_CTX_DAG_OWNER=felipehdez
+AIRFLOW_CTX_DAG_ID=forex_data_pipeline
+AIRFLOW_CTX_TASK_ID=create_forexRates_database
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-15T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=3
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-11-15T00:00:00+00:00
+[2022-11-16T00:37:58.533+0000] {base.py:71} INFO - Using connection ID 'forex_db' for task execution.
+[2022-11-16T00:37:58.537+0000] {sql.py:315} INFO - Running statement: 
+            CREATE TABLE IF NOT EXISTS forex_ratings (
+                Id INTEGER NOT NULL PRIMARY KEY AUNTOINCREMENT,
+                From_Currency_Code TEXT NOT NULL,
+                From_Currency_Name TEXT NOT NULL,
+                To_Currency_Code TEXT NOT NULL,
+                To_Currency_Name TEXT NOT NULL,
+                Exchange_Rate NUMERIC(6,2),
+                Last_Refreshed TIMESTAMP NOT NULL,
+                Time_Zone TEXT NOT NULL
+            );
+        , parameters: None
+[2022-11-16T00:37:58.538+0000] {taskinstance.py:1851} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/postgres/operators/postgres.py", line 94, in execute
+    self.hook.run(self.sql, self.autocommit, parameters=self.parameters)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/common/sql/hooks/sql.py", line 295, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/common/sql/hooks/sql.py", line 320, in _run_command
+    cur.execute(sql_statement)
+psycopg2.errors.SyntaxError: syntax error at or near "AUNTOINCREMENT"
+LINE 3:                 Id INTEGER NOT NULL PRIMARY KEY AUNTOINCREME...
+                                                        ^
+
+[2022-11-16T00:37:58.550+0000] {taskinstance.py:1406} INFO - Marking task as UP_FOR_RETRY. dag_id=forex_data_pipeline, task_id=create_forexRates_database, execution_date=20221115T000000, start_date=20221116T003758, end_date=20221116T003758
+[2022-11-16T00:37:58.561+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/email.py:120: RemovedInAirflow3Warning: Fetching SMTP credentials from configuration variables will be deprecated in a future release. Please set credentials using a connection instead.
+  send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+
+[2022-11-16T00:37:58.562+0000] {configuration.py:569} WARNING - section/key [smtp/smtp_user] not found in config
+[2022-11-16T00:37:58.563+0000] {email.py:229} INFO - Email alerting: attempt 1
+[2022-11-16T00:37:58.569+0000] {configuration.py:569} WARNING - section/key [smtp/smtp_user] not found in config
+[2022-11-16T00:37:58.570+0000] {email.py:229} INFO - Email alerting: attempt 1
+[2022-11-16T00:37:58.571+0000] {taskinstance.py:1914} ERROR - Failed to send email to: juanfelipehdezm@gmail.com
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1457, in _run_raw_task
+    self._execute_task_with_callbacks(context, test_mode)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1603, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1664, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/postgres/operators/postgres.py", line 94, in execute
+    self.hook.run(self.sql, self.autocommit, parameters=self.parameters)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/common/sql/hooks/sql.py", line 295, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/common/sql/hooks/sql.py", line 320, in _run_command
+    cur.execute(sql_statement)
+psycopg2.errors.SyntaxError: syntax error at or near "AUNTOINCREMENT"
+LINE 3:                 Id INTEGER NOT NULL PRIMARY KEY AUNTOINCREME...
+                                                        ^
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 2315, in email_alert
+    send_email(task.email, subject, html_content)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/email.py", line 72, in send_email
+    **kwargs,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/email.py", line 120, in send_email_smtp
+    send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/email.py", line 231, in send_mime_email
+    smtp_conn = _get_smtp_connection(smtp_host, smtp_port, smtp_timeout, smtp_ssl)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/email.py", line 265, in _get_smtp_connection
+    else smtplib.SMTP(host=host, port=port, timeout=timeout)
+  File "/usr/local/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/local/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/local/lib/python3.7/smtplib.py", line 307, in _get_socket
+    self.source_address)
+  File "/usr/local/lib/python3.7/socket.py", line 728, in create_connection
+    raise err
+  File "/usr/local/lib/python3.7/socket.py", line 716, in create_connection
+    sock.connect(sa)
+OSError: [Errno 99] Cannot assign requested address
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1912, in handle_failure
+    self.email_alert(error, task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 2317, in email_alert
+    send_email(task.email, subject, html_content_err)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/email.py", line 72, in send_email
+    **kwargs,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/email.py", line 120, in send_email_smtp
+    send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/email.py", line 231, in send_mime_email
+    smtp_conn = _get_smtp_connection(smtp_host, smtp_port, smtp_timeout, smtp_ssl)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/email.py", line 265, in _get_smtp_connection
+    else smtplib.SMTP(host=host, port=port, timeout=timeout)
+  File "/usr/local/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/local/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/local/lib/python3.7/smtplib.py", line 307, in _get_socket
+    self.source_address)
+  File "/usr/local/lib/python3.7/socket.py", line 728, in create_connection
+    raise err
+  File "/usr/local/lib/python3.7/socket.py", line 716, in create_connection
+    sock.connect(sa)
+OSError: [Errno 99] Cannot assign requested address
+[2022-11-16T00:37:58.581+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 163 for task create_forexRates_database (syntax error at or near "AUNTOINCREMENT"
+LINE 3:                 Id INTEGER NOT NULL PRIMARY KEY AUNTOINCREME...
+                                                        ^
+; 363)
+[2022-11-16T00:37:58.617+0000] {local_task_job.py:164} INFO - Task exited with return code 1
+[2022-11-16T00:37:58.633+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

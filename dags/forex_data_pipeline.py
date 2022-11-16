@@ -54,15 +54,19 @@ def processing_json_file():
                                  "6. Last Refreshed": "Last_Refreshed",
                                  "7. Time Zone": "Time_Zone"}, inplace=True)
         # sending the data to the CS
-        df_rates.to_csv("/opt/airflow/dags/files/rates.csv")
+        df_rates.to_csv("/opt/airflow/dags/files/rates.csv", header=False)
 
 
 def store_ratings():
-    hook = PostgresHook(postgres_conn_id="postgres")
+    """
+    It copies the contents of the file /opt/airflow/dags/files/rates.csv into the table forex_ratings
+    """
+    hook = PostgresHook(postgres_conn_id="forex_db")
     hook.copy_expert(
         sql="COPY forex_ratings FROM stdin WITH DELIMITER AS ','",
         filename="/opt/airflow/dags/files/rates.csv"
     )
+
 
     # iniating the dag object
 with DAG("forex_data_pipeline", start_date=dt.datetime(2022, 11, 7),
@@ -100,7 +104,7 @@ with DAG("forex_data_pipeline", start_date=dt.datetime(2022, 11, 7),
         postgres_conn_id="forex_db",
         sql="""
             CREATE TABLE IF NOT EXISTS forex_ratings (
-                Id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+                Id SERIAL PRIMARY KEY,
                 From_Currency_Code TEXT NOT NULL,
                 From_Currency_Name TEXT NOT NULL,
                 To_Currency_Code TEXT NOT NULL,
