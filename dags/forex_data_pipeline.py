@@ -38,8 +38,10 @@ def download_rates():
 
 def processing_json_file():
     """
-    It reads the json file and converts it into a dataframe.
+    It reads a json file, converts it to a dataframe, renames the columns, and then sends it to a csv
+    file.
     """
+
     with open("/opt/airflow/dags/files/rates.json", "r") as file:
         data = json.load(file)
         proper_data = {k: v.split(",") for k, v in data.items()}
@@ -53,8 +55,9 @@ def processing_json_file():
                                  "5. Exchange Rate": "Exchange_Rate",
                                  "6. Last Refreshed": "Last_Refreshed",
                                  "7. Time Zone": "Time_Zone"}, inplace=True)
-        # sending the data to the CS
-        df_rates.to_csv("/opt/airflow/dags/files/rates.csv", header=False)
+        # sending the data to the CS, it will APPEND the new data
+        df_rates.to_csv("/opt/airflow/dags/files/rates.csv",
+                        header=False, index=False, mode="a")
 
 
 def store_ratings():
@@ -103,8 +106,10 @@ with DAG("forex_data_pipeline", start_date=dt.datetime(2022, 11, 7),
         task_id="create_forexRates_database",
         postgres_conn_id="forex_db",
         sql="""
+
+            DROP TABLE IF EXISTS forex_ratings;
+
             CREATE TABLE IF NOT EXISTS forex_ratings (
-                Id SERIAL PRIMARY KEY,
                 From_Currency_Code TEXT NOT NULL,
                 From_Currency_Name TEXT NOT NULL,
                 To_Currency_Code TEXT NOT NULL,
@@ -130,3 +135,5 @@ with DAG("forex_data_pipeline", start_date=dt.datetime(2022, 11, 7),
 
     # DEPENDENCIES
     is_forex_rates_available >> downloading_rates >> is_forex_rates_file_available >> process_json_file >> store_ratings
+
+    create_forexRates_database >> store_ratings
