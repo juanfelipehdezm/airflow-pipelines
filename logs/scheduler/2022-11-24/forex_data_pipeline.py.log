@@ -1,0 +1,189 @@
+[2022-11-24T00:40:16.172+0000] {processor.py:156} INFO - Started process (PID=49) to work on /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:40:16.175+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/forex_data_pipeline.py for tasks to queue
+[2022-11-24T00:40:16.177+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:40:16.177+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:40:17.192+0000] {processor.py:768} INFO - DAG(s) dict_keys(['forex_data_pipeline']) retrieved from /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:40:17.482+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:40:17.482+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-11-24T00:40:17.534+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:40:17.534+0000] {dag.py:3328} INFO - Setting next_dagrun for forex_data_pipeline to 2022-11-24T00:00:00+00:00, run_after=2022-11-25T00:00:00+00:00
+[2022-11-24T00:40:17.571+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/forex_data_pipeline.py took 1.400 seconds
+[2022-11-24T00:40:47.877+0000] {processor.py:156} INFO - Started process (PID=79) to work on /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:40:47.880+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/forex_data_pipeline.py for tasks to queue
+[2022-11-24T00:40:47.881+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:40:47.881+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:40:48.284+0000] {processor.py:768} INFO - DAG(s) dict_keys(['forex_data_pipeline']) retrieved from /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:40:48.420+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:40:48.420+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-11-24T00:40:48.441+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:40:48.441+0000] {dag.py:3328} INFO - Setting next_dagrun for forex_data_pipeline to 2022-11-24T00:00:00+00:00, run_after=2022-11-25T00:00:00+00:00
+[2022-11-24T00:40:48.461+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/forex_data_pipeline.py took 0.586 seconds
+[2022-11-24T00:41:18.683+0000] {processor.py:156} INFO - Started process (PID=108) to work on /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:41:18.685+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/forex_data_pipeline.py for tasks to queue
+[2022-11-24T00:41:18.686+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:41:18.686+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:41:19.140+0000] {processor.py:768} INFO - DAG(s) dict_keys(['forex_data_pipeline']) retrieved from /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:41:19.307+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:41:19.307+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-11-24T00:41:19.330+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:41:19.329+0000] {dag.py:3328} INFO - Setting next_dagrun for forex_data_pipeline to 2022-11-24T00:00:00+00:00, run_after=2022-11-25T00:00:00+00:00
+[2022-11-24T00:41:19.351+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/forex_data_pipeline.py took 0.670 seconds
+[2022-11-24T00:41:49.658+0000] {processor.py:156} INFO - Started process (PID=137) to work on /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:41:49.661+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/forex_data_pipeline.py for tasks to queue
+[2022-11-24T00:41:49.662+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:41:49.662+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:41:50.068+0000] {processor.py:768} INFO - DAG(s) dict_keys(['forex_data_pipeline']) retrieved from /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:41:50.217+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:41:50.216+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-11-24T00:41:50.243+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:41:50.243+0000] {dag.py:3328} INFO - Setting next_dagrun for forex_data_pipeline to 2022-11-24T00:00:00+00:00, run_after=2022-11-25T00:00:00+00:00
+[2022-11-24T00:41:50.265+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/forex_data_pipeline.py took 0.609 seconds
+[2022-11-24T00:42:20.524+0000] {processor.py:156} INFO - Started process (PID=166) to work on /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:42:20.526+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/forex_data_pipeline.py for tasks to queue
+[2022-11-24T00:42:20.527+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:42:20.527+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:42:20.880+0000] {processor.py:768} INFO - DAG(s) dict_keys(['forex_data_pipeline']) retrieved from /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:42:21.001+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:42:21.001+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-11-24T00:42:21.018+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:42:21.018+0000] {dag.py:3328} INFO - Setting next_dagrun for forex_data_pipeline to 2022-11-24T00:00:00+00:00, run_after=2022-11-25T00:00:00+00:00
+[2022-11-24T00:42:21.040+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/forex_data_pipeline.py took 0.517 seconds
+[2022-11-24T00:42:51.418+0000] {processor.py:156} INFO - Started process (PID=186) to work on /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:42:51.420+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/forex_data_pipeline.py for tasks to queue
+[2022-11-24T00:42:51.420+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:42:51.420+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:42:51.676+0000] {processor.py:768} INFO - DAG(s) dict_keys(['forex_data_pipeline']) retrieved from /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:42:51.804+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:42:51.804+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-11-24T00:42:51.823+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:42:51.823+0000] {dag.py:3328} INFO - Setting next_dagrun for forex_data_pipeline to 2022-11-24T00:00:00+00:00, run_after=2022-11-25T00:00:00+00:00
+[2022-11-24T00:42:51.847+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/forex_data_pipeline.py took 0.430 seconds
+[2022-11-24T00:43:22.112+0000] {processor.py:156} INFO - Started process (PID=215) to work on /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:43:22.114+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/forex_data_pipeline.py for tasks to queue
+[2022-11-24T00:43:22.115+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:43:22.115+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:43:22.391+0000] {processor.py:768} INFO - DAG(s) dict_keys(['forex_data_pipeline']) retrieved from /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:43:22.550+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:43:22.550+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-11-24T00:43:22.574+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:43:22.574+0000] {dag.py:3328} INFO - Setting next_dagrun for forex_data_pipeline to 2022-11-24T00:00:00+00:00, run_after=2022-11-25T00:00:00+00:00
+[2022-11-24T00:43:22.599+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/forex_data_pipeline.py took 0.490 seconds
+[2022-11-24T00:43:52.823+0000] {processor.py:156} INFO - Started process (PID=244) to work on /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:43:52.825+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/forex_data_pipeline.py for tasks to queue
+[2022-11-24T00:43:52.826+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:43:52.826+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:43:53.054+0000] {processor.py:768} INFO - DAG(s) dict_keys(['forex_data_pipeline']) retrieved from /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:43:53.203+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:43:53.203+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-11-24T00:43:53.237+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:43:53.236+0000] {dag.py:3328} INFO - Setting next_dagrun for forex_data_pipeline to 2022-11-24T00:00:00+00:00, run_after=2022-11-25T00:00:00+00:00
+[2022-11-24T00:43:53.261+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/forex_data_pipeline.py took 0.440 seconds
+[2022-11-24T00:44:23.507+0000] {processor.py:156} INFO - Started process (PID=273) to work on /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:44:23.511+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/forex_data_pipeline.py for tasks to queue
+[2022-11-24T00:44:23.512+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:44:23.512+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:44:23.826+0000] {processor.py:768} INFO - DAG(s) dict_keys(['forex_data_pipeline']) retrieved from /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:44:24.008+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:44:24.008+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-11-24T00:44:24.036+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:44:24.036+0000] {dag.py:3328} INFO - Setting next_dagrun for forex_data_pipeline to 2022-11-24T00:00:00+00:00, run_after=2022-11-25T00:00:00+00:00
+[2022-11-24T00:44:24.060+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/forex_data_pipeline.py took 0.556 seconds
+[2022-11-24T00:44:54.243+0000] {processor.py:156} INFO - Started process (PID=293) to work on /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:44:54.244+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/forex_data_pipeline.py for tasks to queue
+[2022-11-24T00:44:54.245+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:44:54.245+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:44:54.504+0000] {processor.py:768} INFO - DAG(s) dict_keys(['forex_data_pipeline']) retrieved from /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:44:54.636+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:44:54.635+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-11-24T00:44:54.658+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:44:54.657+0000] {dag.py:3328} INFO - Setting next_dagrun for forex_data_pipeline to 2022-11-24T00:00:00+00:00, run_after=2022-11-25T00:00:00+00:00
+[2022-11-24T00:44:54.679+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/forex_data_pipeline.py took 0.438 seconds
+[2022-11-24T00:45:24.969+0000] {processor.py:156} INFO - Started process (PID=322) to work on /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:45:24.971+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/forex_data_pipeline.py for tasks to queue
+[2022-11-24T00:45:24.973+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:45:24.973+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:45:25.276+0000] {processor.py:768} INFO - DAG(s) dict_keys(['forex_data_pipeline']) retrieved from /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:45:25.429+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:45:25.429+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-11-24T00:45:25.454+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:45:25.454+0000] {dag.py:3328} INFO - Setting next_dagrun for forex_data_pipeline to 2022-11-24T00:00:00+00:00, run_after=2022-11-25T00:00:00+00:00
+[2022-11-24T00:45:25.478+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/forex_data_pipeline.py took 0.511 seconds
+[2022-11-24T00:45:55.873+0000] {processor.py:156} INFO - Started process (PID=352) to work on /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:45:55.876+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/forex_data_pipeline.py for tasks to queue
+[2022-11-24T00:45:55.877+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:45:55.877+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:45:56.237+0000] {processor.py:768} INFO - DAG(s) dict_keys(['forex_data_pipeline']) retrieved from /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:45:56.394+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:45:56.393+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-11-24T00:45:56.415+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:45:56.414+0000] {dag.py:3328} INFO - Setting next_dagrun for forex_data_pipeline to 2022-11-24T00:00:00+00:00, run_after=2022-11-25T00:00:00+00:00
+[2022-11-24T00:45:56.436+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/forex_data_pipeline.py took 0.566 seconds
+[2022-11-24T00:46:26.480+0000] {processor.py:156} INFO - Started process (PID=381) to work on /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:46:26.482+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/forex_data_pipeline.py for tasks to queue
+[2022-11-24T00:46:26.482+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:46:26.482+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:46:26.717+0000] {processor.py:768} INFO - DAG(s) dict_keys(['forex_data_pipeline']) retrieved from /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:46:26.839+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:46:26.838+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-11-24T00:46:26.856+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:46:26.856+0000] {dag.py:3328} INFO - Setting next_dagrun for forex_data_pipeline to 2022-11-24T00:00:00+00:00, run_after=2022-11-25T00:00:00+00:00
+[2022-11-24T00:46:26.882+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/forex_data_pipeline.py took 0.404 seconds
+[2022-11-24T00:46:57.210+0000] {processor.py:156} INFO - Started process (PID=408) to work on /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:46:57.219+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/forex_data_pipeline.py for tasks to queue
+[2022-11-24T00:46:57.220+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:46:57.220+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:46:57.528+0000] {processor.py:768} INFO - DAG(s) dict_keys(['forex_data_pipeline']) retrieved from /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:46:57.681+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:46:57.680+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-11-24T00:46:57.702+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:46:57.701+0000] {dag.py:3328} INFO - Setting next_dagrun for forex_data_pipeline to 2022-11-24T00:00:00+00:00, run_after=2022-11-25T00:00:00+00:00
+[2022-11-24T00:46:57.723+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/forex_data_pipeline.py took 0.516 seconds
+[2022-11-24T00:47:27.972+0000] {processor.py:156} INFO - Started process (PID=430) to work on /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:47:27.974+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/forex_data_pipeline.py for tasks to queue
+[2022-11-24T00:47:27.975+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:47:27.974+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:47:28.266+0000] {processor.py:768} INFO - DAG(s) dict_keys(['forex_data_pipeline']) retrieved from /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:47:28.480+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:47:28.480+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-11-24T00:47:28.512+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:47:28.511+0000] {dag.py:3328} INFO - Setting next_dagrun for forex_data_pipeline to 2022-11-24T00:00:00+00:00, run_after=2022-11-25T00:00:00+00:00
+[2022-11-24T00:47:28.533+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/forex_data_pipeline.py took 0.564 seconds
+[2022-11-24T00:47:58.583+0000] {processor.py:156} INFO - Started process (PID=460) to work on /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:47:58.585+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/forex_data_pipeline.py for tasks to queue
+[2022-11-24T00:47:58.586+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:47:58.586+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:47:58.871+0000] {processor.py:768} INFO - DAG(s) dict_keys(['forex_data_pipeline']) retrieved from /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:47:59.014+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:47:59.014+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-11-24T00:47:59.038+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:47:59.038+0000] {dag.py:3328} INFO - Setting next_dagrun for forex_data_pipeline to 2022-11-24T00:00:00+00:00, run_after=2022-11-25T00:00:00+00:00
+[2022-11-24T00:47:59.064+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/forex_data_pipeline.py took 0.483 seconds
+[2022-11-24T00:48:29.348+0000] {processor.py:156} INFO - Started process (PID=490) to work on /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:48:29.351+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/forex_data_pipeline.py for tasks to queue
+[2022-11-24T00:48:29.352+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:48:29.352+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:48:29.647+0000] {processor.py:768} INFO - DAG(s) dict_keys(['forex_data_pipeline']) retrieved from /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:48:29.793+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:48:29.793+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-11-24T00:48:29.817+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:48:29.817+0000] {dag.py:3328} INFO - Setting next_dagrun for forex_data_pipeline to 2022-11-24T00:00:00+00:00, run_after=2022-11-25T00:00:00+00:00
+[2022-11-24T00:48:29.844+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/forex_data_pipeline.py took 0.498 seconds
+[2022-11-24T00:49:00.179+0000] {processor.py:156} INFO - Started process (PID=511) to work on /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:49:00.181+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/forex_data_pipeline.py for tasks to queue
+[2022-11-24T00:49:00.182+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:49:00.182+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:49:00.466+0000] {processor.py:768} INFO - DAG(s) dict_keys(['forex_data_pipeline']) retrieved from /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:49:00.605+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:49:00.604+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-11-24T00:49:00.627+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:49:00.627+0000] {dag.py:3328} INFO - Setting next_dagrun for forex_data_pipeline to 2022-11-24T00:00:00+00:00, run_after=2022-11-25T00:00:00+00:00
+[2022-11-24T00:49:00.651+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/forex_data_pipeline.py took 0.474 seconds
+[2022-11-24T00:49:30.903+0000] {processor.py:156} INFO - Started process (PID=541) to work on /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:49:30.905+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/forex_data_pipeline.py for tasks to queue
+[2022-11-24T00:49:30.906+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:49:30.906+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:49:31.174+0000] {processor.py:768} INFO - DAG(s) dict_keys(['forex_data_pipeline']) retrieved from /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:49:31.306+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:49:31.306+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-11-24T00:49:31.325+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:49:31.325+0000] {dag.py:3328} INFO - Setting next_dagrun for forex_data_pipeline to 2022-11-24T00:00:00+00:00, run_after=2022-11-25T00:00:00+00:00
+[2022-11-24T00:49:31.345+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/forex_data_pipeline.py took 0.445 seconds
+[2022-11-24T00:50:01.577+0000] {processor.py:156} INFO - Started process (PID=570) to work on /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:50:01.578+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/forex_data_pipeline.py for tasks to queue
+[2022-11-24T00:50:01.579+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:50:01.579+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:50:01.828+0000] {processor.py:768} INFO - DAG(s) dict_keys(['forex_data_pipeline']) retrieved from /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:50:01.951+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:50:01.950+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-11-24T00:50:01.969+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:50:01.969+0000] {dag.py:3328} INFO - Setting next_dagrun for forex_data_pipeline to 2022-11-24T00:00:00+00:00, run_after=2022-11-25T00:00:00+00:00
+[2022-11-24T00:50:01.988+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/forex_data_pipeline.py took 0.413 seconds
+[2022-11-24T00:50:32.266+0000] {processor.py:156} INFO - Started process (PID=598) to work on /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:50:32.268+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/forex_data_pipeline.py for tasks to queue
+[2022-11-24T00:50:32.268+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:50:32.268+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:50:32.490+0000] {processor.py:768} INFO - DAG(s) dict_keys(['forex_data_pipeline']) retrieved from /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:50:32.640+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:50:32.640+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-11-24T00:50:32.663+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:50:32.663+0000] {dag.py:3328} INFO - Setting next_dagrun for forex_data_pipeline to 2022-11-24T00:00:00+00:00, run_after=2022-11-25T00:00:00+00:00
+[2022-11-24T00:50:32.685+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/forex_data_pipeline.py took 0.420 seconds
+[2022-11-24T00:51:02.941+0000] {processor.py:156} INFO - Started process (PID=627) to work on /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:51:02.943+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/forex_data_pipeline.py for tasks to queue
+[2022-11-24T00:51:02.944+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:51:02.944+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:51:03.278+0000] {processor.py:768} INFO - DAG(s) dict_keys(['forex_data_pipeline']) retrieved from /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T00:51:03.586+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:51:03.586+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-11-24T00:51:03.618+0000] {logging_mixin.py:117} INFO - [2022-11-24T00:51:03.617+0000] {dag.py:3328} INFO - Setting next_dagrun for forex_data_pipeline to 2022-11-24T00:00:00+00:00, run_after=2022-11-25T00:00:00+00:00
+[2022-11-24T00:51:03.653+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/forex_data_pipeline.py took 0.715 seconds
+[2022-11-24T15:26:30.581+0000] {processor.py:156} INFO - Started process (PID=42) to work on /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T15:26:30.592+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/forex_data_pipeline.py for tasks to queue
+[2022-11-24T15:26:30.593+0000] {logging_mixin.py:117} INFO - [2022-11-24T15:26:30.593+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T15:26:31.502+0000] {processor.py:768} INFO - DAG(s) dict_keys(['forex_data_pipeline']) retrieved from /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T15:26:31.696+0000] {logging_mixin.py:117} INFO - [2022-11-24T15:26:31.696+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-11-24T15:26:31.727+0000] {logging_mixin.py:117} INFO - [2022-11-24T15:26:31.727+0000] {dag.py:3328} INFO - Setting next_dagrun for forex_data_pipeline to 2022-11-24T00:00:00+00:00, run_after=2022-11-25T00:00:00+00:00
+[2022-11-24T15:26:31.761+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/forex_data_pipeline.py took 1.183 seconds
+[2022-11-24T15:27:01.851+0000] {processor.py:156} INFO - Started process (PID=71) to work on /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T15:27:01.853+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/forex_data_pipeline.py for tasks to queue
+[2022-11-24T15:27:01.854+0000] {logging_mixin.py:117} INFO - [2022-11-24T15:27:01.853+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T15:27:02.188+0000] {processor.py:768} INFO - DAG(s) dict_keys(['forex_data_pipeline']) retrieved from /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T15:27:02.310+0000] {logging_mixin.py:117} INFO - [2022-11-24T15:27:02.310+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-11-24T15:27:02.328+0000] {logging_mixin.py:117} INFO - [2022-11-24T15:27:02.328+0000] {dag.py:3328} INFO - Setting next_dagrun for forex_data_pipeline to 2022-11-24T00:00:00+00:00, run_after=2022-11-25T00:00:00+00:00
+[2022-11-24T15:27:02.353+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/forex_data_pipeline.py took 0.504 seconds
+[2022-11-24T15:27:32.515+0000] {processor.py:156} INFO - Started process (PID=100) to work on /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T15:27:32.520+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/forex_data_pipeline.py for tasks to queue
+[2022-11-24T15:27:32.522+0000] {logging_mixin.py:117} INFO - [2022-11-24T15:27:32.522+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T15:27:33.360+0000] {processor.py:768} INFO - DAG(s) dict_keys(['forex_data_pipeline']) retrieved from /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T15:27:33.558+0000] {logging_mixin.py:117} INFO - [2022-11-24T15:27:33.557+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-11-24T15:27:33.587+0000] {logging_mixin.py:117} INFO - [2022-11-24T15:27:33.587+0000] {dag.py:3328} INFO - Setting next_dagrun for forex_data_pipeline to 2022-11-24T00:00:00+00:00, run_after=2022-11-25T00:00:00+00:00
+[2022-11-24T15:27:33.617+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/forex_data_pipeline.py took 1.104 seconds
+[2022-11-24T20:59:18.335+0000] {processor.py:156} INFO - Started process (PID=41) to work on /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T20:59:18.339+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/forex_data_pipeline.py for tasks to queue
+[2022-11-24T20:59:18.341+0000] {logging_mixin.py:117} INFO - [2022-11-24T20:59:18.340+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T20:59:19.376+0000] {processor.py:768} INFO - DAG(s) dict_keys(['forex_data_pipeline']) retrieved from /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T20:59:19.651+0000] {logging_mixin.py:117} INFO - [2022-11-24T20:59:19.650+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-11-24T20:59:19.699+0000] {logging_mixin.py:117} INFO - [2022-11-24T20:59:19.699+0000] {dag.py:3328} INFO - Setting next_dagrun for forex_data_pipeline to 2022-11-24T00:00:00+00:00, run_after=2022-11-25T00:00:00+00:00
+[2022-11-24T20:59:19.746+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/forex_data_pipeline.py took 1.413 seconds
+[2022-11-24T20:59:50.090+0000] {processor.py:156} INFO - Started process (PID=71) to work on /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T20:59:50.105+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/forex_data_pipeline.py for tasks to queue
+[2022-11-24T20:59:50.106+0000] {logging_mixin.py:117} INFO - [2022-11-24T20:59:50.106+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T20:59:50.436+0000] {processor.py:768} INFO - DAG(s) dict_keys(['forex_data_pipeline']) retrieved from /opt/airflow/dags/forex_data_pipeline.py
+[2022-11-24T20:59:50.563+0000] {logging_mixin.py:117} INFO - [2022-11-24T20:59:50.563+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-11-24T20:59:50.583+0000] {logging_mixin.py:117} INFO - [2022-11-24T20:59:50.583+0000] {dag.py:3328} INFO - Setting next_dagrun for forex_data_pipeline to 2022-11-24T00:00:00+00:00, run_after=2022-11-25T00:00:00+00:00
+[2022-11-24T20:59:50.607+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/forex_data_pipeline.py took 0.518 seconds
