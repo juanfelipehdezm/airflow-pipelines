@@ -19,8 +19,8 @@ DEFAULT_ARG = {
     "retries": 2,
     # minutes to wait before retrying
     "retry_delay": dt.timedelta(minutes=1),
-    "email_on_failure":True,
-    "email_on_retry":False
+    "email_on_failure": True,
+    "email_on_retry": False
 }
 
 
@@ -71,7 +71,6 @@ def store_ratings():
         sql="COPY forex_ratings FROM stdin WITH DELIMITER AS ','",
         filename="/opt/airflow/dags/files/rates.csv"
     )
-
 
     # iniating the dag object
 with DAG("forex_data_pipeline", start_date=dt.datetime(2022, 11, 7),
