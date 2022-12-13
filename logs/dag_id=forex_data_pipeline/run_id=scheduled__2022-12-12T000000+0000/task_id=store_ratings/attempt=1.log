@@ -1,0 +1,26 @@
+[2022-12-13T15:42:40.799+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: forex_data_pipeline.store_ratings scheduled__2022-12-12T00:00:00+00:00 [queued]>
+[2022-12-13T15:42:40.810+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: forex_data_pipeline.store_ratings scheduled__2022-12-12T00:00:00+00:00 [queued]>
+[2022-12-13T15:42:40.812+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13T15:42:40.813+0000] {taskinstance.py:1284} INFO - Starting attempt 1 of 3
+[2022-12-13T15:42:40.813+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13T15:42:40.831+0000] {taskinstance.py:1304} INFO - Executing <Task(PythonOperator): store_ratings> on 2022-12-12 00:00:00+00:00
+[2022-12-13T15:42:40.836+0000] {standard_task_runner.py:55} INFO - Started process 94 to run task
+[2022-12-13T15:42:40.838+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'forex_data_pipeline', 'store_ratings', 'scheduled__2022-12-12T00:00:00+00:00', '--job-id', '398', '--raw', '--subdir', 'DAGS_FOLDER/forex_data_pipeline.py', '--cfg-path', '/tmp/tmpw6o5f1ha']
+[2022-12-13T15:42:40.840+0000] {standard_task_runner.py:83} INFO - Job 398: Subtask store_ratings
+[2022-12-13T15:42:40.897+0000] {task_command.py:389} INFO - Running <TaskInstance: forex_data_pipeline.store_ratings scheduled__2022-12-12T00:00:00+00:00 [running]> on host b1ea40c19b9b
+[2022-12-13T15:42:40.952+0000] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=juanfelipehdezm@gmail.com
+AIRFLOW_CTX_DAG_OWNER=felipehdez
+AIRFLOW_CTX_DAG_ID=forex_data_pipeline
+AIRFLOW_CTX_TASK_ID=store_ratings
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-12T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-12-12T00:00:00+00:00
+[2022-12-13T15:42:40.954+0000] {postgres.py:158} INFO - Running copy expert: COPY forex_ratings FROM stdin WITH DELIMITER AS ',', filename: /opt/***/dags/files/rates.csv
+[2022-12-13T15:42:40.972+0000] {base.py:73} INFO - Using connection ID 'forex_db' for task execution.
+[2022-12-13T15:42:40.985+0000] {python.py:177} INFO - Done. Returned value was: None
+[2022-12-13T15:42:40.992+0000] {taskinstance.py:1327} INFO - Marking task as SUCCESS. dag_id=forex_data_pipeline, task_id=store_ratings, execution_date=20221212T000000, start_date=20221213T154240, end_date=20221213T154240
+[2022-12-13T15:42:41.052+0000] {local_task_job.py:159} INFO - Task exited with return code 0
+[2022-12-13T15:42:41.065+0000] {taskinstance.py:2582} INFO - 0 downstream tasks scheduled from follow-on schedule check

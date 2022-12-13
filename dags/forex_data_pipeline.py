@@ -74,7 +74,7 @@ def store_ratings():
 
     # iniating the dag object
 with DAG("forex_data_pipeline", start_date=dt.datetime(2022, 11, 7),
-         schedule_interval="@daily", default_args=DEFAULT_ARG, catchup=False,
+         schedule="@daily", default_args=DEFAULT_ARG, catchup=False,
          dagrun_timeout=dt.timedelta(minutes=5)) as dag:
 
     is_forex_rates_available = HttpSensor(
