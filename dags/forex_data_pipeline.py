@@ -95,7 +95,7 @@ with DAG("forex_data_pipeline", start_date=dt.datetime(2022, 11, 7),
     )
 
     is_forex_rates_file_available = FileSensor(
-        task_id="is_forex_file_available",
+        task_id="is_forex_rates_file_available",
         # on airflow UI we create the path where to look for the file
         fs_conn_id="forex_path",
         filepath="rates.json",

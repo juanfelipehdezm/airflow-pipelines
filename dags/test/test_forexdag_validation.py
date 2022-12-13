@@ -1,8 +1,8 @@
 import pytest
 from airflow.models import DagBag
 
-#dagbag = DagBag()
 
+# this tests is just for all DAGs
 
 class TestDagValidation:
 
@@ -35,4 +35,3 @@ class TestDagValidation:
 
             assert self.REQUIRED_EMAIL in emails, "The mail {0} for sending alerts is missing from DAG {1}".format(
                 self.REQUIRED_EMAIL, dag_id)
-    
