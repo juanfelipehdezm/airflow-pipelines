@@ -1,0 +1,532 @@
+[2022-12-14T23:40:51.776+0000] {processor.py:153} INFO - Started process (PID=45) to work on /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:40:51.779+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test/test_forexdag_definition.py for tasks to queue
+[2022-12-14T23:40:51.781+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:40:51.781+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:40:51.867+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:40:51.851+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/test/test_forexdag_definition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test/test_forexdag_definition.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+[2022-12-14T23:40:51.873+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:40:51.898+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test/test_forexdag_definition.py took 0.127 seconds
+[2022-12-14T23:41:22.805+0000] {processor.py:153} INFO - Started process (PID=98) to work on /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:41:22.927+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test/test_forexdag_definition.py for tasks to queue
+[2022-12-14T23:41:22.929+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:41:22.929+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:41:24.067+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:41:24.030+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/test/test_forexdag_definition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test/test_forexdag_definition.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+[2022-12-14T23:41:24.076+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:41:24.113+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test/test_forexdag_definition.py took 1.311 seconds
+[2022-12-14T23:41:54.629+0000] {processor.py:153} INFO - Started process (PID=154) to work on /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:41:54.681+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test/test_forexdag_definition.py for tasks to queue
+[2022-12-14T23:41:54.683+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:41:54.683+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:41:54.850+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:41:54.830+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/test/test_forexdag_definition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test/test_forexdag_definition.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+[2022-12-14T23:41:54.859+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:41:54.897+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test/test_forexdag_definition.py took 0.271 seconds
+[2022-12-14T23:42:25.358+0000] {processor.py:153} INFO - Started process (PID=198) to work on /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:42:25.362+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test/test_forexdag_definition.py for tasks to queue
+[2022-12-14T23:42:25.363+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:42:25.362+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:42:25.443+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:42:25.429+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/test/test_forexdag_definition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test/test_forexdag_definition.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+[2022-12-14T23:42:25.451+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:42:25.468+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test/test_forexdag_definition.py took 0.112 seconds
+[2022-12-14T23:42:56.160+0000] {processor.py:153} INFO - Started process (PID=262) to work on /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:42:56.163+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test/test_forexdag_definition.py for tasks to queue
+[2022-12-14T23:42:56.164+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:42:56.164+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:42:56.240+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:42:56.226+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/test/test_forexdag_definition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test/test_forexdag_definition.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+[2022-12-14T23:42:56.248+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:42:56.268+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test/test_forexdag_definition.py took 0.111 seconds
+[2022-12-14T23:43:26.956+0000] {processor.py:153} INFO - Started process (PID=306) to work on /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:43:26.962+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test/test_forexdag_definition.py for tasks to queue
+[2022-12-14T23:43:26.963+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:43:26.963+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:43:27.052+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:43:27.035+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/test/test_forexdag_definition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test/test_forexdag_definition.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+[2022-12-14T23:43:27.058+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:43:27.075+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test/test_forexdag_definition.py took 0.122 seconds
+[2022-12-14T23:43:57.775+0000] {processor.py:153} INFO - Started process (PID=370) to work on /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:43:57.778+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test/test_forexdag_definition.py for tasks to queue
+[2022-12-14T23:43:57.779+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:43:57.779+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:43:57.850+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:43:57.839+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/test/test_forexdag_definition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test/test_forexdag_definition.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+[2022-12-14T23:43:57.857+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:43:57.940+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test/test_forexdag_definition.py took 0.170 seconds
+[2022-12-14T23:44:28.330+0000] {processor.py:153} INFO - Started process (PID=415) to work on /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:44:28.334+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test/test_forexdag_definition.py for tasks to queue
+[2022-12-14T23:44:28.335+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:44:28.335+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:44:28.446+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:44:28.425+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/test/test_forexdag_definition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test/test_forexdag_definition.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+[2022-12-14T23:44:28.455+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:44:28.473+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test/test_forexdag_definition.py took 0.147 seconds
+[2022-12-14T23:44:58.707+0000] {processor.py:153} INFO - Started process (PID=478) to work on /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:44:58.711+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test/test_forexdag_definition.py for tasks to queue
+[2022-12-14T23:44:58.713+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:44:58.712+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:44:58.823+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:44:58.798+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/test/test_forexdag_definition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test/test_forexdag_definition.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+[2022-12-14T23:44:58.832+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:44:58.852+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test/test_forexdag_definition.py took 0.149 seconds
+[2022-12-14T23:45:29.667+0000] {processor.py:153} INFO - Started process (PID=522) to work on /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:45:29.670+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test/test_forexdag_definition.py for tasks to queue
+[2022-12-14T23:45:29.672+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:45:29.672+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:45:29.776+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:45:29.753+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/test/test_forexdag_definition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test/test_forexdag_definition.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+[2022-12-14T23:45:29.783+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:45:29.803+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test/test_forexdag_definition.py took 0.139 seconds
+[2022-12-14T23:46:00.483+0000] {processor.py:153} INFO - Started process (PID=586) to work on /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:46:00.486+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test/test_forexdag_definition.py for tasks to queue
+[2022-12-14T23:46:00.488+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:46:00.488+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:46:00.574+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:46:00.557+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/test/test_forexdag_definition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test/test_forexdag_definition.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+[2022-12-14T23:46:00.582+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:46:00.600+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test/test_forexdag_definition.py took 0.119 seconds
+[2022-12-14T23:46:31.383+0000] {processor.py:153} INFO - Started process (PID=630) to work on /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:46:31.388+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test/test_forexdag_definition.py for tasks to queue
+[2022-12-14T23:46:31.390+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:46:31.389+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:46:31.475+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:46:31.459+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/test/test_forexdag_definition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test/test_forexdag_definition.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+[2022-12-14T23:46:31.481+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:46:31.500+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test/test_forexdag_definition.py took 0.119 seconds
+[2022-12-14T23:47:02.274+0000] {processor.py:153} INFO - Started process (PID=694) to work on /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:47:02.277+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test/test_forexdag_definition.py for tasks to queue
+[2022-12-14T23:47:02.279+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:47:02.279+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:47:02.386+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:47:02.363+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/test/test_forexdag_definition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test/test_forexdag_definition.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+[2022-12-14T23:47:02.395+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:47:02.413+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test/test_forexdag_definition.py took 0.143 seconds
+[2022-12-14T23:47:33.273+0000] {processor.py:153} INFO - Started process (PID=745) to work on /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:47:33.275+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test/test_forexdag_definition.py for tasks to queue
+[2022-12-14T23:47:33.276+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:47:33.276+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:47:33.369+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:47:33.346+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/test/test_forexdag_definition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test/test_forexdag_definition.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+[2022-12-14T23:47:33.375+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:47:33.393+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test/test_forexdag_definition.py took 0.123 seconds
+[2022-12-14T23:48:04.130+0000] {processor.py:153} INFO - Started process (PID=802) to work on /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:48:04.132+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test/test_forexdag_definition.py for tasks to queue
+[2022-12-14T23:48:04.134+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:48:04.134+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:48:04.234+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:48:04.217+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/test/test_forexdag_definition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test/test_forexdag_definition.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+[2022-12-14T23:48:04.240+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:48:04.258+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test/test_forexdag_definition.py took 0.131 seconds
+[2022-12-14T23:48:35.102+0000] {processor.py:153} INFO - Started process (PID=855) to work on /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:48:35.104+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test/test_forexdag_definition.py for tasks to queue
+[2022-12-14T23:48:35.106+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:48:35.106+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:48:35.186+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:48:35.170+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/test/test_forexdag_definition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test/test_forexdag_definition.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+[2022-12-14T23:48:35.193+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:48:35.218+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test/test_forexdag_definition.py took 0.119 seconds
+[2022-12-14T23:49:05.418+0000] {processor.py:153} INFO - Started process (PID=910) to work on /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:49:05.420+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test/test_forexdag_definition.py for tasks to queue
+[2022-12-14T23:49:05.421+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:49:05.421+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:49:05.485+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:49:05.476+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/test/test_forexdag_definition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test/test_forexdag_definition.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+[2022-12-14T23:49:05.489+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:49:05.506+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test/test_forexdag_definition.py took 0.090 seconds
+[2022-12-14T23:49:35.579+0000] {processor.py:153} INFO - Started process (PID=963) to work on /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:49:35.583+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test/test_forexdag_definition.py for tasks to queue
+[2022-12-14T23:49:35.584+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:49:35.584+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:49:35.656+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:49:35.644+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/test/test_forexdag_definition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test/test_forexdag_definition.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+[2022-12-14T23:49:35.662+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:49:35.677+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test/test_forexdag_definition.py took 0.101 seconds
+[2022-12-14T23:50:06.507+0000] {processor.py:153} INFO - Started process (PID=1018) to work on /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:50:06.509+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test/test_forexdag_definition.py for tasks to queue
+[2022-12-14T23:50:06.511+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:50:06.511+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:50:06.594+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:50:06.577+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/test/test_forexdag_definition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test/test_forexdag_definition.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+[2022-12-14T23:50:06.606+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:50:06.628+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test/test_forexdag_definition.py took 0.124 seconds
+[2022-12-14T23:50:36.756+0000] {processor.py:153} INFO - Started process (PID=1083) to work on /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:50:36.759+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test/test_forexdag_definition.py for tasks to queue
+[2022-12-14T23:50:36.760+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:50:36.760+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:50:36.801+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:50:36.793+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/test/test_forexdag_definition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test/test_forexdag_definition.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+[2022-12-14T23:50:36.805+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:50:36.823+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test/test_forexdag_definition.py took 0.068 seconds
+[2022-12-14T23:51:07.182+0000] {processor.py:153} INFO - Started process (PID=1127) to work on /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:51:07.186+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test/test_forexdag_definition.py for tasks to queue
+[2022-12-14T23:51:07.187+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:51:07.187+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:51:07.249+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:51:07.239+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/test/test_forexdag_definition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test/test_forexdag_definition.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+[2022-12-14T23:51:07.256+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:51:07.277+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test/test_forexdag_definition.py took 0.098 seconds
+[2022-12-14T23:51:37.332+0000] {processor.py:153} INFO - Started process (PID=1191) to work on /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:51:37.334+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test/test_forexdag_definition.py for tasks to queue
+[2022-12-14T23:51:37.336+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:51:37.335+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:51:37.380+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:51:37.370+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/test/test_forexdag_definition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test/test_forexdag_definition.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+[2022-12-14T23:51:37.383+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:51:37.399+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test/test_forexdag_definition.py took 0.069 seconds
+[2022-12-14T23:52:08.026+0000] {processor.py:153} INFO - Started process (PID=1235) to work on /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:52:08.028+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test/test_forexdag_definition.py for tasks to queue
+[2022-12-14T23:52:08.030+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:52:08.029+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:52:08.142+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:52:08.114+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/test/test_forexdag_definition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test/test_forexdag_definition.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+[2022-12-14T23:52:08.154+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:52:08.176+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test/test_forexdag_definition.py took 0.153 seconds
+[2022-12-14T23:52:38.640+0000] {processor.py:153} INFO - Started process (PID=1299) to work on /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:52:38.643+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test/test_forexdag_definition.py for tasks to queue
+[2022-12-14T23:52:38.644+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:52:38.644+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:52:38.742+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:52:38.723+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/test/test_forexdag_definition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test/test_forexdag_definition.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+[2022-12-14T23:52:38.750+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:52:38.770+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test/test_forexdag_definition.py took 0.132 seconds
+[2022-12-14T23:53:08.941+0000] {processor.py:153} INFO - Started process (PID=1343) to work on /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:53:08.944+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test/test_forexdag_definition.py for tasks to queue
+[2022-12-14T23:53:08.945+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:53:08.945+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:53:09.030+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:53:09.012+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/test/test_forexdag_definition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test/test_forexdag_definition.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+[2022-12-14T23:53:09.039+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:53:09.062+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test/test_forexdag_definition.py took 0.124 seconds
+[2022-12-14T23:53:39.864+0000] {processor.py:153} INFO - Started process (PID=1407) to work on /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:53:39.867+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test/test_forexdag_definition.py for tasks to queue
+[2022-12-14T23:53:39.869+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:53:39.869+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:53:39.955+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:53:39.939+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/test/test_forexdag_definition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test/test_forexdag_definition.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+[2022-12-14T23:53:39.961+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:53:39.985+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test/test_forexdag_definition.py took 0.124 seconds
+[2022-12-14T23:54:10.734+0000] {processor.py:153} INFO - Started process (PID=1451) to work on /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:54:10.737+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test/test_forexdag_definition.py for tasks to queue
+[2022-12-14T23:54:10.738+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:54:10.738+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:54:10.837+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:54:10.814+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/test/test_forexdag_definition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test/test_forexdag_definition.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+[2022-12-14T23:54:10.845+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:54:10.862+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test/test_forexdag_definition.py took 0.131 seconds
+[2022-12-14T23:54:41.504+0000] {processor.py:153} INFO - Started process (PID=1515) to work on /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:54:41.507+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test/test_forexdag_definition.py for tasks to queue
+[2022-12-14T23:54:41.508+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:54:41.508+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:54:41.586+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:54:41.571+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/test/test_forexdag_definition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test/test_forexdag_definition.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+[2022-12-14T23:54:41.593+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:54:41.614+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test/test_forexdag_definition.py took 0.113 seconds
+[2022-12-14T23:55:12.178+0000] {processor.py:153} INFO - Started process (PID=1569) to work on /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:55:12.183+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test/test_forexdag_definition.py for tasks to queue
+[2022-12-14T23:55:12.184+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:55:12.184+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:55:12.246+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:55:12.233+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/test/test_forexdag_definition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test/test_forexdag_definition.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+[2022-12-14T23:55:12.252+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:55:12.270+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test/test_forexdag_definition.py took 0.094 seconds
+[2022-12-14T23:55:42.874+0000] {processor.py:153} INFO - Started process (PID=1624) to work on /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:55:42.879+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test/test_forexdag_definition.py for tasks to queue
+[2022-12-14T23:55:42.881+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:55:42.881+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:55:42.960+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:55:42.942+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/test/test_forexdag_definition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test/test_forexdag_definition.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+[2022-12-14T23:55:42.966+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:55:42.992+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test/test_forexdag_definition.py took 0.121 seconds
+[2022-12-14T23:56:13.370+0000] {processor.py:153} INFO - Started process (PID=1689) to work on /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:56:13.373+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test/test_forexdag_definition.py for tasks to queue
+[2022-12-14T23:56:13.375+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:56:13.374+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:56:13.434+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:56:13.422+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/test/test_forexdag_definition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test/test_forexdag_definition.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+[2022-12-14T23:56:13.440+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:56:13.460+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test/test_forexdag_definition.py took 0.092 seconds
+[2022-12-14T23:56:43.773+0000] {processor.py:153} INFO - Started process (PID=1733) to work on /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:56:43.777+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test/test_forexdag_definition.py for tasks to queue
+[2022-12-14T23:56:43.779+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:56:43.778+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:56:43.902+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:56:43.879+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/test/test_forexdag_definition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test/test_forexdag_definition.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+[2022-12-14T23:56:43.914+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:56:43.943+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test/test_forexdag_definition.py took 0.176 seconds
+[2022-12-14T23:57:14.086+0000] {processor.py:153} INFO - Started process (PID=1776) to work on /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:57:14.089+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test/test_forexdag_definition.py for tasks to queue
+[2022-12-14T23:57:14.090+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:57:14.090+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:57:14.170+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:57:14.156+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/test/test_forexdag_definition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test/test_forexdag_definition.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+[2022-12-14T23:57:14.178+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:57:14.198+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test/test_forexdag_definition.py took 0.114 seconds
+[2022-12-14T23:57:44.804+0000] {processor.py:153} INFO - Started process (PID=1839) to work on /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:57:44.809+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test/test_forexdag_definition.py for tasks to queue
+[2022-12-14T23:57:44.810+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:57:44.810+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:57:44.904+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:57:44.891+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/test/test_forexdag_definition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test/test_forexdag_definition.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+[2022-12-14T23:57:44.909+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:57:44.927+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test/test_forexdag_definition.py took 0.125 seconds
+[2022-12-14T23:58:15.237+0000] {processor.py:153} INFO - Started process (PID=1882) to work on /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:58:15.243+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test/test_forexdag_definition.py for tasks to queue
+[2022-12-14T23:58:15.245+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:58:15.244+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:58:15.341+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:58:15.324+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/test/test_forexdag_definition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test/test_forexdag_definition.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+[2022-12-14T23:58:15.349+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:58:15.368+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test/test_forexdag_definition.py took 0.133 seconds
+[2022-12-14T23:58:45.677+0000] {processor.py:153} INFO - Started process (PID=1945) to work on /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:58:45.681+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test/test_forexdag_definition.py for tasks to queue
+[2022-12-14T23:58:45.683+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:58:45.683+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:58:45.801+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:58:45.779+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/test/test_forexdag_definition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test/test_forexdag_definition.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+[2022-12-14T23:58:45.810+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:58:45.842+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test/test_forexdag_definition.py took 0.168 seconds
+[2022-12-14T23:59:16.470+0000] {processor.py:153} INFO - Started process (PID=1990) to work on /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:59:16.473+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test/test_forexdag_definition.py for tasks to queue
+[2022-12-14T23:59:16.474+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:59:16.474+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:59:16.558+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:59:16.540+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/test/test_forexdag_definition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test/test_forexdag_definition.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+[2022-12-14T23:59:16.565+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:59:16.583+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test/test_forexdag_definition.py took 0.116 seconds
+[2022-12-14T23:59:46.673+0000] {processor.py:153} INFO - Started process (PID=2054) to work on /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:59:46.675+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test/test_forexdag_definition.py for tasks to queue
+[2022-12-14T23:59:46.677+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:59:46.676+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:59:46.720+0000] {logging_mixin.py:137} INFO - [2022-12-14T23:59:46.712+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/test/test_forexdag_definition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test/test_forexdag_definition.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+[2022-12-14T23:59:46.724+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/test/test_forexdag_definition.py
+[2022-12-14T23:59:46.740+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test/test_forexdag_definition.py took 0.071 seconds
