@@ -22673,3 +22673,1572 @@ File Path                                           PID    Runtime      # DAGs  
 /opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.36s           2023-01-12T00:42:14
 ================================================================================
 [2023-01-12T00:42:20.948+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2023-01-12T15:17:20.546+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2023-01-12T15:17:20.556+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2023-01-12T15:17:20.556+0000] {manager.py:486} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-01-12T15:17:20.557+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2023-01-12T15:17:21.094+0000] {manager.py:729} INFO - There are 3 files in /opt/airflow/dags
+[2023-01-12T15:17:23.097+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.15s           2023-01-12T15:17:21
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.14s           2023-01-12T15:17:21
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.91s           2023-01-12T15:17:22
+================================================================================
+[2023-01-12T15:17:53.146+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.20s           2023-01-12T15:17:51
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.24s           2023-01-12T15:17:51
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.49s           2023-01-12T15:17:53
+================================================================================
+[2023-01-12T15:18:23.292+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.14s           2023-01-12T15:18:22
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.11s           2023-01-12T15:18:22
+/opt/airflow/dags/forex_data_pipeline.py              151  0.00s             1           0  0.49s           2023-01-12T15:17:53
+================================================================================
+[2023-01-12T15:18:53.887+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.15s           2023-01-12T15:18:53
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.14s           2023-01-12T15:18:52
+/opt/airflow/dags/forex_data_pipeline.py              215  0.00s             1           0  0.39s           2023-01-12T15:18:23
+================================================================================
+[2023-01-12T15:19:24.663+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.16s           2023-01-12T15:19:23
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.12s           2023-01-12T15:19:23
+/opt/airflow/dags/forex_data_pipeline.py              259  0.00s             1           0  0.38s           2023-01-12T15:18:54
+================================================================================
+[2023-01-12T15:19:55.125+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.18s           2023-01-12T15:19:54
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.14s           2023-01-12T15:19:54
+/opt/airflow/dags/forex_data_pipeline.py              324  0.00s             1           0  0.41s           2023-01-12T15:19:25
+================================================================================
+[2023-01-12T15:20:11.268+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2023-01-12T21:44:50.528+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2023-01-12T21:44:50.550+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2023-01-12T21:44:50.551+0000] {manager.py:486} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-01-12T21:44:50.560+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2023-01-12T21:44:55.980+0000] {manager.py:729} INFO - There are 3 files in /opt/airflow/dags
+[2023-01-12T21:44:56.071+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/forex_data_pipeline.py               61  0.02s             0           0
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           0
+/opt/airflow/dags/test/test_forexdag_definition.py     62  0.02s             0           0
+================================================================================
+[2023-01-12T21:45:26.295+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.40s           2023-01-12T21:44:56
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.24s           2023-01-12T21:44:56
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  1.38s           2023-01-12T21:44:57
+================================================================================
+[2023-01-12T21:45:48.100+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2023-01-14T03:00:01.148+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2023-01-14T03:00:01.160+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2023-01-14T03:00:01.161+0000] {manager.py:486} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-01-14T03:00:01.162+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2023-01-14T03:00:02.281+0000] {manager.py:729} INFO - There are 3 files in /opt/airflow/dags
+[2023-01-14T03:00:02.397+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/forex_data_pipeline.py               69  0.03s             0           0
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           0
+/opt/airflow/dags/test/test_forexdag_definition.py     70  0.02s             0           0
+================================================================================
+[2023-01-14T03:00:19.612+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2023-01-16T17:50:19.732+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2023-01-16T17:50:19.752+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2023-01-16T17:50:19.756+0000] {manager.py:486} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-01-16T17:50:19.759+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2023-01-16T17:50:21.543+0000] {manager.py:729} INFO - There are 3 files in /opt/airflow/dags
+[2023-01-16T17:50:24.388+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/forex_data_pipeline.py               58  2.72s             0           0
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.49s           2023-01-16T17:50:24
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  2.08s           2023-01-16T17:50:23
+================================================================================
+[2023-01-16T17:50:54.546+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py    126  0.00s             0           1  0.49s           2023-01-16T17:50:24
+/opt/airflow/dags/test/test_forexdag_definition.py    125  0.01s             0           1  2.08s           2023-01-16T17:50:23
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  3.74s           2023-01-16T17:50:25
+================================================================================
+[2023-01-16T17:51:24.667+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.29s           2023-01-16T17:50:54
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.27s           2023-01-16T17:50:54
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.52s           2023-01-16T17:50:56
+================================================================================
+[2023-01-16T17:51:54.987+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.14s           2023-01-16T17:51:25
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.17s           2023-01-16T17:51:25
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.51s           2023-01-16T17:51:27
+================================================================================
+[2023-01-16T17:52:25.455+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.44s           2023-01-16T17:51:55
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.33s           2023-01-16T17:51:55
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  1.04s           2023-01-16T17:51:58
+================================================================================
+[2023-01-16T17:52:55.643+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.15s           2023-01-16T17:52:26
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.12s           2023-01-16T17:52:26
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.47s           2023-01-16T17:52:30
+================================================================================
+[2023-01-16T17:53:25.684+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.16s           2023-01-16T17:52:56
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.12s           2023-01-16T17:52:56
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.49s           2023-01-16T17:53:01
+================================================================================
+[2023-01-16T17:53:55.798+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.11s           2023-01-16T17:53:27
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.14s           2023-01-16T17:53:26
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.44s           2023-01-16T17:53:32
+================================================================================
+[2023-01-16T17:54:17.004+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2023-01-18T23:49:56.454+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2023-01-18T23:49:56.463+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2023-01-18T23:49:56.464+0000] {manager.py:486} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-01-18T23:49:56.465+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2023-01-18T23:49:57.317+0000] {manager.py:729} INFO - There are 3 files in /opt/airflow/dags
+[2023-01-18T23:50:00.784+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.24s           2023-01-18T23:49:57
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.29s           2023-01-18T23:49:57
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  1.56s           2023-01-18T23:49:58
+================================================================================
+[2023-01-18T23:50:31.571+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.13s           2023-01-18T23:50:28
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.16s           2023-01-18T23:50:28
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.33s           2023-01-18T23:50:29
+================================================================================
+[2023-01-18T23:51:01.620+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.16s           2023-01-18T23:50:59
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.13s           2023-01-18T23:50:59
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.36s           2023-01-18T23:51:00
+================================================================================
+[2023-01-18T23:51:31.692+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.14s           2023-01-18T23:51:30
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.15s           2023-01-18T23:51:30
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.41s           2023-01-18T23:51:31
+================================================================================
+[2023-01-18T23:51:37.324+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2023-01-20T16:34:16.966+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2023-01-20T16:34:16.981+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2023-01-20T16:34:16.982+0000] {manager.py:486} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-01-20T16:34:16.983+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2023-01-20T16:34:17.648+0000] {manager.py:729} INFO - There are 3 files in /opt/airflow/dags
+[2023-01-20T16:34:22.066+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.13s           2023-01-20T16:34:17
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.14s           2023-01-20T16:34:17
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.71s           2023-01-20T16:34:18
+================================================================================
+[2023-01-20T16:34:52.715+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.09s           2023-01-20T16:34:48
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.10s           2023-01-20T16:34:48
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.35s           2023-01-20T16:34:48
+================================================================================
+[2023-01-20T16:35:23.633+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.15s           2023-01-20T16:35:19
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.17s           2023-01-20T16:35:19
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.41s           2023-01-20T16:35:19
+================================================================================
+[2023-01-20T16:35:53.677+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.15s           2023-01-20T16:35:50
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.19s           2023-01-20T16:35:50
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.58s           2023-01-20T16:35:50
+================================================================================
+[2023-01-20T16:36:24.447+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.18s           2023-01-20T16:36:21
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.11s           2023-01-20T16:36:21
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.36s           2023-01-20T16:36:21
+================================================================================
+[2023-01-20T16:36:54.980+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.13s           2023-01-20T16:36:51
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.19s           2023-01-20T16:36:51
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.45s           2023-01-20T16:36:51
+================================================================================
+[2023-01-20T16:37:25.270+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.18s           2023-01-20T16:37:22
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.21s           2023-01-20T16:37:22
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.34s           2023-01-20T16:37:22
+================================================================================
+[2023-01-20T16:37:55.439+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.13s           2023-01-20T16:37:53
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.16s           2023-01-20T16:37:53
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.46s           2023-01-20T16:37:53
+================================================================================
+[2023-01-20T16:38:26.087+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.11s           2023-01-20T16:38:24
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.10s           2023-01-20T16:38:23
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.37s           2023-01-20T16:38:24
+================================================================================
+[2023-01-20T16:38:56.393+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.18s           2023-01-20T16:38:54
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.15s           2023-01-20T16:38:54
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.38s           2023-01-20T16:38:54
+================================================================================
+[2023-01-20T16:39:17.124+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2023-01-20T16:39:17.810+0000] {manager.py:729} INFO - There are 3 files in /opt/airflow/dags
+[2023-01-20T16:39:27.278+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.10s           2023-01-20T16:39:25
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.10s           2023-01-20T16:39:25
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.35s           2023-01-20T16:39:25
+================================================================================
+[2023-01-20T16:39:58.037+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.15s           2023-01-20T16:39:55
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.19s           2023-01-20T16:39:55
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.44s           2023-01-20T16:39:55
+================================================================================
+[2023-01-20T16:40:28.088+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.20s           2023-01-20T16:40:26
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.16s           2023-01-20T16:40:25
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.42s           2023-01-20T16:40:26
+================================================================================
+[2023-01-20T16:40:58.205+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.26s           2023-01-20T16:40:56
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.22s           2023-01-20T16:40:56
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.55s           2023-01-20T16:40:57
+================================================================================
+[2023-01-20T16:41:28.592+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.15s           2023-01-20T16:41:27
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.19s           2023-01-20T16:41:27
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.45s           2023-01-20T16:41:27
+================================================================================
+[2023-01-20T16:44:06.477+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.17s           2023-01-20T16:41:58
+/opt/airflow/dags/test/test_forexdag_definition.py    890  0.00s             0           1  0.17s           2023-01-20T16:41:58
+/opt/airflow/dags/forex_data_pipeline.py              889  0.01s             1           0  0.44s           2023-01-20T16:41:58
+================================================================================
+[2023-01-20T16:44:17.177+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2023-01-20T16:44:17.713+0000] {manager.py:729} INFO - There are 3 files in /opt/airflow/dags
+[2023-01-20T16:44:37.329+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.15s           2023-01-20T16:44:06
+/opt/airflow/dags/test/test_forexdag_definition.py    934  0.00s             0           1  0.19s           2023-01-20T16:44:06
+/opt/airflow/dags/forex_data_pipeline.py              933  0.01s             1           0  0.58s           2023-01-20T16:44:07
+================================================================================
+[2023-01-20T16:45:07.753+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.28s           2023-01-20T16:44:37
+/opt/airflow/dags/test/test_forexdag_definition.py    997  0.00s             0           1  0.33s           2023-01-20T16:44:37
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.57s           2023-01-20T16:44:37
+================================================================================
+[2023-01-20T16:45:38.240+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.11s           2023-01-20T16:45:08
+/opt/airflow/dags/test/test_forexdag_definition.py   1043  0.02s             0           1  0.10s           2023-01-20T16:45:07
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.36s           2023-01-20T16:45:09
+================================================================================
+[2023-01-20T16:46:08.544+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.32s           2023-01-20T16:45:39
+/opt/airflow/dags/test/test_forexdag_definition.py   1105  0.00s             0           1  0.17s           2023-01-20T16:45:38
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.77s           2023-01-20T16:45:40
+================================================================================
+[2023-01-20T16:46:38.880+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.21s           2023-01-20T16:46:10
+/opt/airflow/dags/test/test_forexdag_definition.py   1149  0.00s             0           1  0.21s           2023-01-20T16:46:08
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.44s           2023-01-20T16:46:11
+================================================================================
+[2023-01-20T16:47:08.943+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.17s           2023-01-20T16:46:40
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.16s           2023-01-20T16:46:39
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.44s           2023-01-20T16:46:42
+================================================================================
+[2023-01-20T16:47:39.058+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.14s           2023-01-20T16:47:10
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.17s           2023-01-20T16:47:09
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.42s           2023-01-20T16:47:13
+================================================================================
+[2023-01-20T16:48:09.078+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.13s           2023-01-20T16:47:41
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.12s           2023-01-20T16:47:40
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.39s           2023-01-20T16:47:44
+================================================================================
+[2023-01-20T16:48:39.664+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.17s           2023-01-20T16:48:12
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.14s           2023-01-20T16:48:11
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.44s           2023-01-20T16:48:15
+================================================================================
+[2023-01-20T16:49:10.041+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.17s           2023-01-20T16:48:42
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.24s           2023-01-20T16:48:41
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.36s           2023-01-20T16:48:45
+================================================================================
+[2023-01-20T16:49:17.250+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2023-01-20T16:49:17.820+0000] {manager.py:729} INFO - There are 3 files in /opt/airflow/dags
+[2023-01-20T16:49:40.322+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.09s           2023-01-20T16:49:13
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.12s           2023-01-20T16:49:12
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.39s           2023-01-20T16:49:16
+================================================================================
+[2023-01-20T16:50:10.474+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.16s           2023-01-20T16:49:43
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.19s           2023-01-20T16:49:42
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.36s           2023-01-20T16:49:46
+================================================================================
+[2023-01-20T16:50:40.952+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.15s           2023-01-20T16:50:14
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.19s           2023-01-20T16:50:13
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.46s           2023-01-20T16:50:17
+================================================================================
+[2023-01-20T16:51:11.170+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.11s           2023-01-20T16:50:44
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.14s           2023-01-20T16:50:43
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.39s           2023-01-20T16:50:48
+================================================================================
+[2023-01-20T16:51:41.189+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.17s           2023-01-20T16:51:15
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.28s           2023-01-20T16:51:14
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.36s           2023-01-20T16:51:20
+================================================================================
+[2023-01-20T16:52:11.395+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.15s           2023-01-20T16:51:45
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.10s           2023-01-20T16:51:44
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.46s           2023-01-20T16:51:51
+================================================================================
+[2023-01-20T16:52:41.560+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.11s           2023-01-20T16:52:16
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.09s           2023-01-20T16:52:14
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.39s           2023-01-20T16:52:22
+================================================================================
+[2023-01-20T16:53:11.686+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.09s           2023-01-20T16:52:46
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.13s           2023-01-20T16:52:45
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.41s           2023-01-20T16:52:53
+================================================================================
+[2023-01-20T16:53:42.055+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.16s           2023-01-20T16:53:17
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.16s           2023-01-20T16:53:16
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.37s           2023-01-20T16:53:23
+================================================================================
+[2023-01-20T16:54:12.318+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.16s           2023-01-20T16:53:47
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.31s           2023-01-20T16:53:47
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.44s           2023-01-20T16:53:55
+================================================================================
+[2023-01-20T16:54:17.387+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2023-01-20T16:54:18.059+0000] {manager.py:729} INFO - There are 3 files in /opt/airflow/dags
+[2023-01-20T16:54:42.777+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.19s           2023-01-20T16:54:18
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.15s           2023-01-20T16:54:18
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.38s           2023-01-20T16:54:25
+================================================================================
+[2023-01-20T16:55:12.903+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.18s           2023-01-20T16:54:49
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.14s           2023-01-20T16:54:49
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.44s           2023-01-20T16:54:56
+================================================================================
+[2023-01-20T16:55:43.307+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.10s           2023-01-20T16:55:19
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.14s           2023-01-20T16:55:19
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.37s           2023-01-20T16:55:27
+================================================================================
+[2023-01-20T16:56:13.415+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.14s           2023-01-20T16:55:50
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.13s           2023-01-20T16:55:50
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.36s           2023-01-20T16:55:57
+================================================================================
+[2023-01-20T16:56:43.718+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.10s           2023-01-20T16:56:21
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.14s           2023-01-20T16:56:21
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.41s           2023-01-20T16:56:28
+================================================================================
+[2023-01-20T16:57:13.811+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.10s           2023-01-20T16:56:52
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.09s           2023-01-20T16:56:52
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.39s           2023-01-20T16:56:59
+================================================================================
+[2023-01-20T16:57:44.421+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.23s           2023-01-20T16:57:22
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.20s           2023-01-20T16:57:22
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.42s           2023-01-20T16:57:30
+================================================================================
+[2023-01-20T16:58:14.675+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.21s           2023-01-20T16:57:53
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.17s           2023-01-20T16:57:53
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.41s           2023-01-20T16:58:01
+================================================================================
+[2023-01-20T16:58:44.772+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.11s           2023-01-20T16:58:24
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.11s           2023-01-20T16:58:23
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.35s           2023-01-20T16:58:32
+================================================================================
+[2023-01-20T16:59:15.026+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.14s           2023-01-20T16:58:54
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.16s           2023-01-20T16:58:54
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.34s           2023-01-20T16:59:03
+================================================================================
+[2023-01-20T16:59:17.786+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2023-01-20T16:59:18.476+0000] {manager.py:729} INFO - There are 3 files in /opt/airflow/dags
+[2023-01-20T16:59:45.226+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.16s           2023-01-20T16:59:24
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.15s           2023-01-20T16:59:24
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.41s           2023-01-20T16:59:34
+================================================================================
+[2023-01-20T17:00:15.235+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.21s           2023-01-20T16:59:55
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.17s           2023-01-20T16:59:55
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.42s           2023-01-20T17:00:04
+================================================================================
+[2023-01-20T17:00:45.838+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.17s           2023-01-20T17:00:26
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.21s           2023-01-20T17:00:26
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.41s           2023-01-20T17:00:35
+================================================================================
+[2023-01-20T17:01:16.025+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.18s           2023-01-20T17:00:57
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.15s           2023-01-20T17:00:57
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.37s           2023-01-20T17:01:06
+================================================================================
+[2023-01-20T17:01:46.391+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.14s           2023-01-20T17:01:27
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.18s           2023-01-20T17:01:28
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.45s           2023-01-20T17:01:37
+================================================================================
+[2023-01-20T17:02:17.268+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.16s           2023-01-20T17:01:58
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.20s           2023-01-20T17:01:58
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.34s           2023-01-20T17:02:08
+================================================================================
+[2023-01-20T17:02:47.335+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.19s           2023-01-20T17:02:29
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.18s           2023-01-20T17:02:29
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.33s           2023-01-20T17:02:39
+================================================================================
+[2023-01-20T17:03:17.892+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.18s           2023-01-20T17:03:00
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.14s           2023-01-20T17:03:00
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.37s           2023-01-20T17:03:09
+================================================================================
+[2023-01-20T17:03:48.072+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.20s           2023-01-20T17:03:31
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.17s           2023-01-20T17:03:31
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.40s           2023-01-20T17:03:40
+================================================================================
+[2023-01-20T17:04:18.458+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2023-01-20T17:04:19.040+0000] {manager.py:729} INFO - There are 3 files in /opt/airflow/dags
+[2023-01-20T17:04:19.062+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.13s           2023-01-20T17:04:02
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.11s           2023-01-20T17:04:02
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.43s           2023-01-20T17:04:11
+================================================================================
+[2023-01-20T17:04:49.287+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.18s           2023-01-20T17:04:32
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.14s           2023-01-20T17:04:32
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.43s           2023-01-20T17:04:42
+================================================================================
+[2023-01-20T17:05:20.060+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.19s           2023-01-20T17:05:02
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.24s           2023-01-20T17:05:02
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.34s           2023-01-20T17:05:13
+================================================================================
+[2023-01-20T17:05:50.142+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.19s           2023-01-20T17:05:33
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.15s           2023-01-20T17:05:33
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.44s           2023-01-20T17:05:43
+================================================================================
+[2023-01-20T17:06:20.581+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.17s           2023-01-20T17:06:04
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.15s           2023-01-20T17:06:04
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.41s           2023-01-20T17:06:14
+================================================================================
+[2023-01-20T17:06:50.711+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.15s           2023-01-20T17:06:35
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.13s           2023-01-20T17:06:35
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.48s           2023-01-20T17:06:45
+================================================================================
+[2023-01-20T17:07:21.174+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.16s           2023-01-20T17:07:05
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.14s           2023-01-20T17:07:05
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.37s           2023-01-20T17:07:16
+================================================================================
+[2023-01-20T17:07:51.261+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.15s           2023-01-20T17:07:36
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.13s           2023-01-20T17:07:36
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.42s           2023-01-20T17:07:47
+================================================================================
+[2023-01-20T17:08:21.682+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.12s           2023-01-20T17:08:07
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.10s           2023-01-20T17:08:07
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.34s           2023-01-20T17:08:17
+================================================================================
+[2023-01-20T17:08:52.464+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.20s           2023-01-20T17:08:38
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.14s           2023-01-20T17:08:38
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.34s           2023-01-20T17:08:48
+================================================================================
+[2023-01-20T17:09:18.932+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2023-01-20T17:09:19.552+0000] {manager.py:729} INFO - There are 3 files in /opt/airflow/dags
+[2023-01-20T17:09:22.663+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.17s           2023-01-20T17:09:08
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.22s           2023-01-20T17:09:08
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.42s           2023-01-20T17:09:19
+================================================================================
+[2023-01-20T17:09:52.833+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.15s           2023-01-20T17:09:39
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.14s           2023-01-20T17:09:39
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.41s           2023-01-20T17:09:51
+================================================================================
+[2023-01-20T17:10:22.945+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.15s           2023-01-20T17:10:10
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.19s           2023-01-20T17:10:10
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.49s           2023-01-20T17:10:21
+================================================================================
+[2023-01-20T17:10:52.981+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.15s           2023-01-20T17:10:40
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.15s           2023-01-20T17:10:40
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.34s           2023-01-20T17:10:52
+================================================================================
+[2023-01-20T17:11:23.032+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.17s           2023-01-20T17:11:10
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.15s           2023-01-20T17:11:10
+/opt/airflow/dags/forex_data_pipeline.py             3831  0.00s             1           0  0.34s           2023-01-20T17:10:52
+================================================================================
+[2023-01-20T17:11:53.867+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.11s           2023-01-20T17:11:41
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.09s           2023-01-20T17:11:41
+/opt/airflow/dags/forex_data_pipeline.py             3875  0.00s             1           0  0.40s           2023-01-20T17:11:23
+================================================================================
+[2023-01-20T17:12:24.627+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.18s           2023-01-20T17:12:12
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.22s           2023-01-20T17:12:12
+/opt/airflow/dags/forex_data_pipeline.py             3939  0.00s             1           0  0.47s           2023-01-20T17:11:54
+================================================================================
+[2023-01-20T17:12:54.683+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.18s           2023-01-20T17:12:43
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.24s           2023-01-20T17:12:43
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.40s           2023-01-20T17:12:25
+================================================================================
+[2023-01-20T17:13:25.381+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.15s           2023-01-20T17:13:14
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.19s           2023-01-20T17:13:14
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.36s           2023-01-20T17:12:55
+================================================================================
+[2023-01-20T17:13:56.135+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.12s           2023-01-20T17:13:45
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.10s           2023-01-20T17:13:45
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.35s           2023-01-20T17:13:26
+================================================================================
+[2023-01-20T17:14:19.694+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2023-01-20T17:14:20.206+0000] {manager.py:729} INFO - There are 3 files in /opt/airflow/dags
+[2023-01-20T17:14:26.359+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.12s           2023-01-20T17:14:15
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.16s           2023-01-20T17:14:15
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.36s           2023-01-20T17:13:57
+================================================================================
+[2023-01-20T17:14:56.443+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.14s           2023-01-20T17:14:46
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.19s           2023-01-20T17:14:46
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.40s           2023-01-20T17:14:28
+================================================================================
+[2023-01-20T17:15:27.183+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.19s           2023-01-20T17:15:17
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.16s           2023-01-20T17:15:17
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.39s           2023-01-20T17:14:59
+================================================================================
+[2023-01-20T17:15:57.989+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.19s           2023-01-20T17:15:47
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.15s           2023-01-20T17:15:47
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.39s           2023-01-20T17:15:30
+================================================================================
+[2023-01-20T17:16:28.749+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.18s           2023-01-20T17:16:18
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.16s           2023-01-20T17:16:18
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.36s           2023-01-20T17:16:01
+================================================================================
+[2023-01-20T17:16:39.809+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2023-01-26T14:46:46.100+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2023-01-26T14:46:46.114+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2023-01-26T14:46:46.115+0000] {manager.py:486} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-01-26T14:46:46.116+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2023-01-26T14:46:46.860+0000] {manager.py:729} INFO - There are 3 files in /opt/airflow/dags
+[2023-01-26T14:46:52.436+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.15s           2023-01-26T14:46:47
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.22s           2023-01-26T14:46:47
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  1.01s           2023-01-26T14:46:47
+================================================================================
+[2023-01-26T14:47:22.938+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.23s           2023-01-26T14:47:17
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.32s           2023-01-26T14:47:17
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.40s           2023-01-26T14:47:18
+================================================================================
+[2023-01-26T14:47:53.208+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.17s           2023-01-26T14:47:48
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.20s           2023-01-26T14:47:48
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.46s           2023-01-26T14:47:50
+================================================================================
+[2023-01-26T14:48:24.070+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.57s           2023-01-26T14:48:19
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.62s           2023-01-26T14:48:19
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  1.20s           2023-01-26T14:48:21
+================================================================================
+[2023-01-26T14:48:54.279+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.11s           2023-01-26T14:48:50
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.10s           2023-01-26T14:48:50
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.62s           2023-01-26T14:48:52
+================================================================================
+[2023-01-26T14:49:24.390+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.27s           2023-01-26T14:49:20
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.19s           2023-01-26T14:49:20
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.46s           2023-01-26T14:49:23
+================================================================================
+[2023-01-26T14:49:54.675+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.13s           2023-01-26T14:49:51
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.17s           2023-01-26T14:49:51
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.58s           2023-01-26T14:49:54
+================================================================================
+[2023-01-26T14:50:25.316+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.10s           2023-01-26T14:50:21
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.15s           2023-01-26T14:50:21
+/opt/airflow/dags/forex_data_pipeline.py              456  0.00s             1           0  0.58s           2023-01-26T14:49:54
+================================================================================
+[2023-01-26T14:50:55.589+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.14s           2023-01-26T14:50:51
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.13s           2023-01-26T14:50:51
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.40s           2023-01-26T14:50:25
+================================================================================
+[2023-01-26T14:51:26.122+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.38s           2023-01-26T14:51:22
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.15s           2023-01-26T14:51:22
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.40s           2023-01-26T14:50:56
+================================================================================
+[2023-01-26T14:51:46.147+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2023-01-26T14:51:46.550+0000] {manager.py:729} INFO - There are 3 files in /opt/airflow/dags
+[2023-01-26T14:51:56.850+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.12s           2023-01-26T14:51:52
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.15s           2023-01-26T14:51:52
+/opt/airflow/dags/forex_data_pipeline.py              629  0.00s             1           0  0.39s           2023-01-26T14:51:26
+================================================================================
+[2023-01-26T14:52:23.586+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2023-01-26T20:44:09.710+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2023-01-26T20:44:09.721+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2023-01-26T20:44:09.723+0000] {manager.py:486} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-01-26T20:44:09.724+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2023-01-26T20:44:10.729+0000] {manager.py:729} INFO - There are 3 files in /opt/airflow/dags
+[2023-01-26T20:44:10.889+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/forex_data_pipeline.py               61  0.03s             0           0
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           0
+/opt/airflow/dags/test/test_forexdag_definition.py     62  0.02s             0           0
+================================================================================
+[2023-01-26T20:44:41.036+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.22s           2023-01-26T20:44:11
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.28s           2023-01-26T20:44:11
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  1.80s           2023-01-26T20:44:12
+================================================================================
+[2023-01-26T20:45:11.279+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.10s           2023-01-26T20:44:41
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.10s           2023-01-26T20:44:41
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.33s           2023-01-26T20:44:43
+================================================================================
+[2023-01-26T20:45:41.367+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.10s           2023-01-26T20:45:12
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.22s           2023-01-26T20:45:12
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.43s           2023-01-26T20:45:14
+================================================================================
+[2023-01-26T20:46:11.940+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.08s           2023-01-26T20:45:43
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.12s           2023-01-26T20:45:43
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.35s           2023-01-26T20:45:45
+================================================================================
+[2023-01-26T20:46:42.099+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.11s           2023-01-26T20:46:14
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.14s           2023-01-26T20:46:14
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.36s           2023-01-26T20:46:16
+================================================================================
+[2023-01-26T20:47:12.124+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.16s           2023-01-26T20:46:44
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.11s           2023-01-26T20:46:44
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.37s           2023-01-26T20:46:46
+================================================================================
+[2023-01-26T20:47:42.443+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.09s           2023-01-26T20:47:14
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.12s           2023-01-26T20:47:14
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.37s           2023-01-26T20:47:18
+================================================================================
+[2023-01-26T20:48:12.489+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.10s           2023-01-26T20:47:44
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.09s           2023-01-26T20:47:44
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.41s           2023-01-26T20:47:49
+================================================================================
+[2023-01-26T20:48:42.703+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.08s           2023-01-26T20:48:15
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.09s           2023-01-26T20:48:15
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.34s           2023-01-26T20:48:20
+================================================================================
+[2023-01-26T20:49:09.769+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2023-01-26T20:49:10.077+0000] {manager.py:729} INFO - There are 3 files in /opt/airflow/dags
+[2023-01-26T20:49:13.213+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.09s           2023-01-26T20:48:45
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.09s           2023-01-26T20:48:45
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.38s           2023-01-26T20:48:51
+================================================================================
+[2023-01-26T20:49:43.237+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.09s           2023-01-26T20:49:15
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.11s           2023-01-26T20:49:15
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.39s           2023-01-26T20:49:22
+================================================================================
+[2023-01-26T20:50:13.828+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.13s           2023-01-26T20:49:46
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.10s           2023-01-26T20:49:46
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.46s           2023-01-26T20:49:53
+================================================================================
+[2023-01-26T20:50:44.551+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.14s           2023-01-26T20:50:17
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.11s           2023-01-26T20:50:17
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.38s           2023-01-26T20:50:24
+================================================================================
+[2023-01-26T20:51:14.758+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.11s           2023-01-26T20:50:47
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.15s           2023-01-26T20:50:47
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.48s           2023-01-26T20:50:55
+================================================================================
+[2023-01-26T20:51:44.827+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.13s           2023-01-26T20:51:17
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.11s           2023-01-26T20:51:17
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.36s           2023-01-26T20:51:26
+================================================================================
+[2023-01-26T20:52:13.009+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2023-01-28T22:41:28.532+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2023-01-28T22:41:28.553+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2023-01-28T22:41:28.556+0000] {manager.py:486} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-01-28T22:41:28.557+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2023-01-28T22:41:29.717+0000] {manager.py:729} INFO - There are 3 files in /opt/airflow/dags
+[2023-01-28T22:41:29.865+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/forex_data_pipeline.py               58  0.04s             0           0
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           0
+/opt/airflow/dags/test/test_forexdag_definition.py     59  0.03s             0           0
+================================================================================
+[2023-01-28T22:41:54.423+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2023-01-29T21:53:48.286+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2023-01-29T21:53:48.302+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2023-01-29T21:53:48.303+0000] {manager.py:486} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-01-29T21:53:48.305+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2023-01-29T21:53:49.124+0000] {manager.py:729} INFO - There are 3 files in /opt/airflow/dags
+[2023-01-29T21:53:52.512+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.20s           2023-01-29T21:53:49
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.24s           2023-01-29T21:53:49
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  1.22s           2023-01-29T21:53:50
+================================================================================
+[2023-01-29T21:54:22.979+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.22s           2023-01-29T21:54:20
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.19s           2023-01-29T21:54:20
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.60s           2023-01-29T21:54:21
+================================================================================
+[2023-01-29T21:54:23.972+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2023-02-02T00:30:51.309+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2023-02-02T00:30:51.319+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2023-02-02T00:30:51.320+0000] {manager.py:486} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-02-02T00:30:51.321+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2023-02-02T00:30:51.895+0000] {manager.py:729} INFO - There are 3 files in /opt/airflow/dags
+[2023-02-03T00:19:52.986+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2023-02-03T00:19:52.997+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2023-02-03T00:19:52.998+0000] {manager.py:486} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-02-03T00:19:52.999+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2023-02-03T00:19:54.039+0000] {manager.py:729} INFO - There are 3 files in /opt/airflow/dags
+[2023-02-03T00:19:54.177+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/forex_data_pipeline.py               65  0.06s             0           0
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           0
+/opt/airflow/dags/test/test_forexdag_definition.py     66  0.05s             0           0
+================================================================================
+[2023-02-03T00:20:24.502+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.32s           2023-02-03T00:19:54
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.45s           2023-02-03T00:19:54
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  2.14s           2023-02-03T00:19:56
+================================================================================
+[2023-02-03T00:20:28.931+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2023-02-08T22:38:03.793+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2023-02-08T22:38:03.807+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2023-02-08T22:38:03.808+0000] {manager.py:486} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-02-08T22:38:03.809+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2023-02-08T22:38:04.896+0000] {manager.py:729} INFO - There are 3 files in /opt/airflow/dags
+[2023-02-08T22:38:05.018+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/forex_data_pipeline.py               79  0.04s             0           0
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           0
+/opt/airflow/dags/test/test_forexdag_definition.py     80  0.03s             0           0
+================================================================================
+[2023-02-08T22:38:35.906+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py    140  0.00s             0           1  0.29s           2023-02-08T22:38:05
+/opt/airflow/dags/test/test_forexdag_definition.py    139  0.01s             0           1  0.37s           2023-02-08T22:38:05
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  1.46s           2023-02-08T22:38:06
+================================================================================
+[2023-02-08T22:39:06.115+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.32s           2023-02-08T22:38:36
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.38s           2023-02-08T22:38:36
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  1.74s           2023-02-08T22:38:38
+================================================================================
+[2023-02-08T22:39:37.039+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py    248  0.00s             0           1  0.20s           2023-02-08T22:39:06
+/opt/airflow/dags/test/test_forexdag_definition.py    247  0.01s             0           1  0.30s           2023-02-08T22:39:06
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  1.76s           2023-02-08T22:39:11
+================================================================================
+[2023-02-08T22:40:07.306+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.40s           2023-02-08T22:39:37
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.54s           2023-02-08T22:39:37
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.42s           2023-02-08T22:39:41
+================================================================================
+[2023-02-08T22:40:37.427+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.21s           2023-02-08T22:40:07
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.30s           2023-02-08T22:40:08
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.56s           2023-02-08T22:40:12
+================================================================================
+[2023-02-08T22:41:07.514+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.28s           2023-02-08T22:40:38
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.15s           2023-02-08T22:40:38
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.47s           2023-02-08T22:40:43
+================================================================================
+[2023-02-08T22:41:37.602+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.38s           2023-02-08T22:41:09
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.30s           2023-02-08T22:41:09
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.42s           2023-02-08T22:41:13
+================================================================================
+[2023-02-08T22:42:07.728+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.17s           2023-02-08T22:41:39
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.15s           2023-02-08T22:41:39
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.47s           2023-02-08T22:41:44
+================================================================================
+[2023-02-08T22:42:37.818+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.13s           2023-02-08T22:42:09
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.12s           2023-02-08T22:42:09
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.43s           2023-02-08T22:42:15
+================================================================================
+[2023-02-08T22:43:03.815+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2023-02-08T22:43:04.504+0000] {manager.py:729} INFO - There are 3 files in /opt/airflow/dags
+[2023-02-08T22:43:08.662+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.15s           2023-02-08T22:42:40
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.13s           2023-02-08T22:42:40
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.46s           2023-02-08T22:42:46
+================================================================================
+[2023-02-08T22:43:38.792+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.43s           2023-02-08T22:43:12
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.47s           2023-02-08T22:43:12
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.77s           2023-02-08T22:43:18
+================================================================================
+[2023-02-08T22:44:09.162+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.18s           2023-02-08T22:43:43
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.15s           2023-02-08T22:43:43
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.58s           2023-02-08T22:43:48
+================================================================================
+[2023-02-08T22:44:40.028+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test/test_forexdag_validation.py                           0           1  0.19s           2023-02-08T22:44:13
+/opt/airflow/dags/test/test_forexdag_definition.py                           0           1  0.23s           2023-02-08T22:44:13
+/opt/airflow/dags/forex_data_pipeline.py                                     1           0  0.60s           2023-02-08T22:44:19
+================================================================================
+[2023-02-08T22:44:51.699+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15

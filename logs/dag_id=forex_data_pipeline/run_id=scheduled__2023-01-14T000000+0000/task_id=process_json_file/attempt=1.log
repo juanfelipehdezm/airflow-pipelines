@@ -1,0 +1,24 @@
+[2023-01-16T17:50:38.677+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: forex_data_pipeline.process_json_file scheduled__2023-01-14T00:00:00+00:00 [queued]>
+[2023-01-16T17:50:38.719+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: forex_data_pipeline.process_json_file scheduled__2023-01-14T00:00:00+00:00 [queued]>
+[2023-01-16T17:50:38.720+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-16T17:50:38.723+0000] {taskinstance.py:1284} INFO - Starting attempt 1 of 3
+[2023-01-16T17:50:38.724+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-16T17:50:38.782+0000] {taskinstance.py:1304} INFO - Executing <Task(PythonOperator): process_json_file> on 2023-01-14 00:00:00+00:00
+[2023-01-16T17:50:38.790+0000] {standard_task_runner.py:55} INFO - Started process 111 to run task
+[2023-01-16T17:50:38.798+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'forex_data_pipeline', 'process_json_file', 'scheduled__2023-01-14T00:00:00+00:00', '--job-id', '572', '--raw', '--subdir', 'DAGS_FOLDER/forex_data_pipeline.py', '--cfg-path', '/tmp/tmp6bsrn4za']
+[2023-01-16T17:50:38.805+0000] {standard_task_runner.py:83} INFO - Job 572: Subtask process_json_file
+[2023-01-16T17:50:39.005+0000] {task_command.py:389} INFO - Running <TaskInstance: forex_data_pipeline.process_json_file scheduled__2023-01-14T00:00:00+00:00 [running]> on host b21115e7dff0
+[2023-01-16T17:50:39.185+0000] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=juanfelipehdezm@gmail.com
+AIRFLOW_CTX_DAG_OWNER=felipehdez
+AIRFLOW_CTX_DAG_ID=forex_data_pipeline
+AIRFLOW_CTX_TASK_ID=process_json_file
+AIRFLOW_CTX_EXECUTION_DATE=2023-01-14T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-01-14T00:00:00+00:00
+[2023-01-16T17:50:39.218+0000] {python.py:177} INFO - Done. Returned value was: None
+[2023-01-16T17:50:39.231+0000] {taskinstance.py:1327} INFO - Marking task as SUCCESS. dag_id=forex_data_pipeline, task_id=process_json_file, execution_date=20230114T000000, start_date=20230116T175038, end_date=20230116T175039
+[2023-01-16T17:50:39.340+0000] {local_task_job.py:159} INFO - Task exited with return code 0
+[2023-01-16T17:50:39.386+0000] {taskinstance.py:2582} INFO - 1 downstream tasks scheduled from follow-on schedule check
