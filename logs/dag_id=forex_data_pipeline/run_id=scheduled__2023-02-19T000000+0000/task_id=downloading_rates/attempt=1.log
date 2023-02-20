@@ -1,0 +1,24 @@
+[2023-02-20T22:32:50.992+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: forex_data_pipeline.downloading_rates scheduled__2023-02-19T00:00:00+00:00 [queued]>
+[2023-02-20T22:32:51.009+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: forex_data_pipeline.downloading_rates scheduled__2023-02-19T00:00:00+00:00 [queued]>
+[2023-02-20T22:32:51.010+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-20T22:32:51.011+0000] {taskinstance.py:1284} INFO - Starting attempt 1 of 3
+[2023-02-20T22:32:51.012+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-20T22:32:51.029+0000] {taskinstance.py:1304} INFO - Executing <Task(PythonOperator): downloading_rates> on 2023-02-19 00:00:00+00:00
+[2023-02-20T22:32:51.034+0000] {standard_task_runner.py:55} INFO - Started process 83 to run task
+[2023-02-20T22:32:51.038+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'forex_data_pipeline', 'downloading_rates', 'scheduled__2023-02-19T00:00:00+00:00', '--job-id', '759', '--raw', '--subdir', 'DAGS_FOLDER/forex_data_pipeline.py', '--cfg-path', '/tmp/tmpg_q4l675']
+[2023-02-20T22:32:51.040+0000] {standard_task_runner.py:83} INFO - Job 759: Subtask downloading_rates
+[2023-02-20T22:32:51.132+0000] {task_command.py:389} INFO - Running <TaskInstance: forex_data_pipeline.downloading_rates scheduled__2023-02-19T00:00:00+00:00 [running]> on host b21115e7dff0
+[2023-02-20T22:32:51.219+0000] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=juanfelipehdezm@gmail.com
+AIRFLOW_CTX_DAG_OWNER=felipehdez
+AIRFLOW_CTX_DAG_ID=forex_data_pipeline
+AIRFLOW_CTX_TASK_ID=downloading_rates
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-19T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-02-19T00:00:00+00:00
+[2023-02-20T22:32:52.024+0000] {python.py:177} INFO - Done. Returned value was: None
+[2023-02-20T22:32:52.033+0000] {taskinstance.py:1327} INFO - Marking task as SUCCESS. dag_id=forex_data_pipeline, task_id=downloading_rates, execution_date=20230219T000000, start_date=20230220T223250, end_date=20230220T223252
+[2023-02-20T22:32:52.054+0000] {local_task_job.py:159} INFO - Task exited with return code 0
+[2023-02-20T22:32:52.081+0000] {taskinstance.py:2582} INFO - 1 downstream tasks scheduled from follow-on schedule check
