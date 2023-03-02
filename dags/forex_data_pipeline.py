@@ -77,6 +77,12 @@ with DAG("forex_data_pipeline", start_date=dt.datetime(2022, 11, 7),
          schedule="@daily", default_args=DEFAULT_ARG, catchup=False,
          dagrun_timeout=dt.timedelta(minutes=5)) as dag:
 
+    """
+    ###forex_data_pipeline
+    This dag will read an API, tranform the data and load the data into a SQL database.
+    The info is the exchange currency between COP and USA
+    """
+
     is_forex_rates_available = HttpSensor(
         task_id="is_forex_rates_available",
         # this connection is created on arflow UI
