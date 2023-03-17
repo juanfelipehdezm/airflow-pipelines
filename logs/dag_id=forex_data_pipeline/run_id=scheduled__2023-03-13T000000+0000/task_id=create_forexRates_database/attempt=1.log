@@ -1,0 +1,53 @@
+[2023-03-14T18:28:15.953+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: forex_data_pipeline.create_forexRates_database scheduled__2023-03-13T00:00:00+00:00 [queued]>
+[2023-03-14T18:28:15.968+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: forex_data_pipeline.create_forexRates_database scheduled__2023-03-13T00:00:00+00:00 [queued]>
+[2023-03-14T18:28:15.969+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-14T18:28:15.969+0000] {taskinstance.py:1284} INFO - Starting attempt 1 of 3
+[2023-03-14T18:28:15.971+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-14T18:28:15.989+0000] {taskinstance.py:1304} INFO - Executing <Task(PostgresOperator): create_forexRates_database> on 2023-03-13 00:00:00+00:00
+[2023-03-14T18:28:15.995+0000] {standard_task_runner.py:55} INFO - Started process 81 to run task
+[2023-03-14T18:28:15.999+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'forex_data_pipeline', 'create_forexRates_database', 'scheduled__2023-03-13T00:00:00+00:00', '--job-id', '902', '--raw', '--subdir', 'DAGS_FOLDER/forex_data_pipeline.py', '--cfg-path', '/tmp/tmpbmgsi7y7']
+[2023-03-14T18:28:16.002+0000] {standard_task_runner.py:83} INFO - Job 902: Subtask create_forexRates_database
+[2023-03-14T18:28:16.074+0000] {task_command.py:389} INFO - Running <TaskInstance: forex_data_pipeline.create_forexRates_database scheduled__2023-03-13T00:00:00+00:00 [running]> on host aa00172a3355
+[2023-03-14T18:28:16.170+0000] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=juanfelipehdezm@gmail.com
+AIRFLOW_CTX_DAG_OWNER=felipehdez
+AIRFLOW_CTX_DAG_ID=forex_data_pipeline
+AIRFLOW_CTX_TASK_ID=create_forexRates_database
+AIRFLOW_CTX_EXECUTION_DATE=2023-03-13T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-03-13T00:00:00+00:00
+[2023-03-14T18:28:16.172+0000] {sql.py:253} INFO - Executing: 
+
+            DROP TABLE IF EXISTS forex_ratings;
+
+            CREATE TABLE IF NOT EXISTS forex_ratings (
+                From_Currency_Code TEXT NOT NULL,
+                From_Currency_Name TEXT NOT NULL,
+                To_Currency_Code TEXT NOT NULL,
+                To_Currency_Name TEXT NOT NULL,
+                Exchange_Rate NUMERIC(6,2),
+                Last_Refreshed TIMESTAMP NOT NULL,
+                Time_Zone TEXT NOT NULL
+            );
+        
+[2023-03-14T18:28:16.186+0000] {base.py:73} INFO - Using connection ID 'forex_db' for task execution.
+[2023-03-14T18:28:16.403+0000] {base.py:73} INFO - Using connection ID 'forex_db' for task execution.
+[2023-03-14T18:28:16.409+0000] {sql.py:364} INFO - Running statement: 
+
+            DROP TABLE IF EXISTS forex_ratings;
+
+            CREATE TABLE IF NOT EXISTS forex_ratings (
+                From_Currency_Code TEXT NOT NULL,
+                From_Currency_Name TEXT NOT NULL,
+                To_Currency_Code TEXT NOT NULL,
+                To_Currency_Name TEXT NOT NULL,
+                Exchange_Rate NUMERIC(6,2),
+                Last_Refreshed TIMESTAMP NOT NULL,
+                Time_Zone TEXT NOT NULL
+            );
+        , parameters: None
+[2023-03-14T18:28:16.449+0000] {taskinstance.py:1327} INFO - Marking task as SUCCESS. dag_id=forex_data_pipeline, task_id=create_forexRates_database, execution_date=20230313T000000, start_date=20230314T182815, end_date=20230314T182816
+[2023-03-14T18:28:16.492+0000] {local_task_job.py:159} INFO - Task exited with return code 0
+[2023-03-14T18:28:16.517+0000] {taskinstance.py:2582} INFO - 0 downstream tasks scheduled from follow-on schedule check
