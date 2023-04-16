@@ -1,0 +1,14 @@
+[2023-04-11T22:22:11.257+0000] {processor.py:153} INFO - Started process (PID=46) to work on /opt/airflow/dags/forex_data_pipeline.py
+[2023-04-11T22:22:11.261+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/forex_data_pipeline.py for tasks to queue
+[2023-04-11T22:22:11.263+0000] {logging_mixin.py:137} INFO - [2023-04-11T22:22:11.262+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/forex_data_pipeline.py
+[2023-04-11T22:22:12.498+0000] {processor.py:753} INFO - DAG(s) dict_keys(['forex_data_pipeline']) retrieved from /opt/airflow/dags/forex_data_pipeline.py
+[2023-04-11T22:22:12.554+0000] {logging_mixin.py:137} INFO - [2023-04-11T22:22:12.554+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-04-11T22:22:12.606+0000] {logging_mixin.py:137} INFO - [2023-04-11T22:22:12.605+0000] {dag.py:3427} INFO - Setting next_dagrun for forex_data_pipeline to 2023-04-11T00:00:00+00:00, run_after=2023-04-12T00:00:00+00:00
+[2023-04-11T22:22:12.663+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/forex_data_pipeline.py took 1.410 seconds
+[2023-04-11T22:22:43.039+0000] {processor.py:153} INFO - Started process (PID=112) to work on /opt/airflow/dags/forex_data_pipeline.py
+[2023-04-11T22:22:43.041+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/forex_data_pipeline.py for tasks to queue
+[2023-04-11T22:22:43.042+0000] {logging_mixin.py:137} INFO - [2023-04-11T22:22:43.042+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/forex_data_pipeline.py
+[2023-04-11T22:22:43.295+0000] {processor.py:753} INFO - DAG(s) dict_keys(['forex_data_pipeline']) retrieved from /opt/airflow/dags/forex_data_pipeline.py
+[2023-04-11T22:22:43.322+0000] {logging_mixin.py:137} INFO - [2023-04-11T22:22:43.322+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-04-11T22:22:43.341+0000] {logging_mixin.py:137} INFO - [2023-04-11T22:22:43.340+0000] {dag.py:3427} INFO - Setting next_dagrun for forex_data_pipeline to 2023-04-11T00:00:00+00:00, run_after=2023-04-12T00:00:00+00:00
+[2023-04-11T22:22:43.368+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/forex_data_pipeline.py took 0.331 seconds

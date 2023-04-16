@@ -1,0 +1,27 @@
+[2023-04-15T16:36:40.780+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: forex_data_pipeline.is_forex_rates_file_available scheduled__2023-04-14T00:00:00+00:00 [queued]>
+[2023-04-15T16:36:40.792+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: forex_data_pipeline.is_forex_rates_file_available scheduled__2023-04-14T00:00:00+00:00 [queued]>
+[2023-04-15T16:36:40.793+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-15T16:36:40.794+0000] {taskinstance.py:1284} INFO - Starting attempt 1 of 3
+[2023-04-15T16:36:40.794+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-15T16:36:40.818+0000] {taskinstance.py:1304} INFO - Executing <Task(FileSensor): is_forex_rates_file_available> on 2023-04-14 00:00:00+00:00
+[2023-04-15T16:36:40.823+0000] {standard_task_runner.py:55} INFO - Started process 91 to run task
+[2023-04-15T16:36:40.826+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'forex_data_pipeline', 'is_forex_rates_file_available', 'scheduled__2023-04-14T00:00:00+00:00', '--job-id', '1087', '--raw', '--subdir', 'DAGS_FOLDER/forex_data_pipeline.py', '--cfg-path', '/tmp/tmpkualjgyb']
+[2023-04-15T16:36:40.828+0000] {standard_task_runner.py:83} INFO - Job 1087: Subtask is_forex_rates_file_available
+[2023-04-15T16:36:40.884+0000] {task_command.py:389} INFO - Running <TaskInstance: forex_data_pipeline.is_forex_rates_file_available scheduled__2023-04-14T00:00:00+00:00 [running]> on host b21115e7dff0
+[2023-04-15T16:36:40.955+0000] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=juanfelipehdezm@gmail.com
+AIRFLOW_CTX_DAG_OWNER=felipehdez
+AIRFLOW_CTX_DAG_ID=forex_data_pipeline
+AIRFLOW_CTX_TASK_ID=is_forex_rates_file_available
+AIRFLOW_CTX_EXECUTION_DATE=2023-04-14T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-04-14T00:00:00+00:00
+[2023-04-15T16:36:40.964+0000] {base.py:73} INFO - Using connection ID 'forex_path' for task execution.
+[2023-04-15T16:36:40.965+0000] {filesystem.py:64} INFO - Poking for file /opt/***/dags/files/rates.json
+[2023-04-15T16:36:40.979+0000] {filesystem.py:69} INFO - Found File /opt/***/dags/files/rates.json last modified: 20230415163639
+[2023-04-15T16:36:40.979+0000] {base.py:228} INFO - Success criteria met. Exiting.
+[2023-04-15T16:36:40.987+0000] {taskinstance.py:1327} INFO - Marking task as SUCCESS. dag_id=forex_data_pipeline, task_id=is_forex_rates_file_available, execution_date=20230414T000000, start_date=20230415T163640, end_date=20230415T163640
+[2023-04-15T16:36:41.039+0000] {local_task_job.py:159} INFO - Task exited with return code 0
+[2023-04-15T16:36:41.079+0000] {taskinstance.py:2582} INFO - 1 downstream tasks scheduled from follow-on schedule check

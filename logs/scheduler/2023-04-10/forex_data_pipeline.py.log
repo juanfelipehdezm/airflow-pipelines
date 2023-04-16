@@ -1,0 +1,3 @@
+[2023-04-10T20:52:29.271+0000] {processor.py:153} INFO - Started process (PID=65) to work on /opt/airflow/dags/forex_data_pipeline.py
+[2023-04-10T20:52:29.276+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/forex_data_pipeline.py for tasks to queue
+[2023-04-10T20:52:29.279+0000] {logging_mixin.py:137} INFO - [2023-04-10T20:52:29.279+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/forex_data_pipeline.py
