@@ -14,7 +14,7 @@ from airflow.providers.postgres.hooks.postgres import PostgresHook
 DEFAULT_ARG = {
     "owner": "felipehdez",
     "email_on_failure": True,
-    "email_on_retry:": False,
+    "email_on_retry": False,
     "email": "juanfelipehdezm@gmail.com",
     "retries": 2,
     # minutes to wait before retrying
@@ -74,8 +74,8 @@ def store_ratings():
 
     # iniating the dag object
 with DAG("forex_data_pipeline", start_date=dt.datetime(2022, 11, 7),
-         schedule="@daily", default_args=DEFAULT_ARG, catchup=False,
-         dagrun_timeout=dt.timedelta(minutes=5)) as dag:
+        schedule="@daily", default_args=DEFAULT_ARG, catchup=False,
+        dagrun_timeout=dt.timedelta(minutes=5)) as dag:
 
     """
     ###forex_data_pipeline
